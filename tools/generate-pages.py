@@ -1217,6 +1217,12 @@ def render_blog_hub():
 # SITEMAP
 # ------------------------------------------------------------
 def write_sitemap():
+    from datetime import datetime, timezone, timedelta
+
+    # tarikh+masa penuh dengan zon waktu (format W3C) — lebih diterima Google
+    myt = timezone(timedelta(hours=8))
+    lastmod = datetime.now(myt).strftime("%Y-%m-%dT%H:%M:%S+08:00")
+
     urls = [(f"{SITE}/", "1.0", "weekly")]
     urls.append((f"{SITE}/kawasan/", "0.9", "monthly"))
     urls.append((f"{SITE}/blog/", "0.8", "weekly"))
@@ -1229,7 +1235,7 @@ def write_sitemap():
     for u, pri, freq in urls:
         body += f"""  <url>
     <loc>{u}</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>{freq}</changefreq>
     <priority>{pri}</priority>
   </url>\n"""
