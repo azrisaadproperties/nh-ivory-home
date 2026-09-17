@@ -32,15 +32,57 @@ Sosial: [Facebook](https://www.facebook.com/NHhomeconstruction/) ·
 ```
 index.html              Landing page penuh (semua section funnel)
 thankyou.html           Halaman selepas hantar borang (conversion page)
+404.html                Halaman ralat
+robots.txt              Arahan crawler
+sitemap.xml             Peta laman (dijana automatik)
+
+kawasan/index.html      Hub senarai kawasan perkhidmatan
+blog/index.html         Hub senarai artikel
+bina-rumah-<lokasi>/    10 halaman lokasi (Ipoh, Seri Iskandar, Taiping, ...)
+blog/<slug>/            4 artikel panduan
+
 css/style.css           Tema merah, responsive mobile-first
-js/main.js              Header, menu, sticky CTA, kalkulator ansuran, tracking
-js/form.js              Validasi borang, hantar ke Sheets, sambung WhatsApp
-google-apps-script.js   Kod Google Apps Script untuk simpan lead
-assets/placeholder.svg  Gambar ganti sementara
-assets/favicon.svg      Ikon laman
-assets/og-image.webp    Imej pratonton pautan (Open Graph)
-images/                 Logo, gambar projek, pasukan, badge sijil
+css/seo.css             Styling halaman kandungan (lokasi & blog)
+js/main.js              Header, menu, sticky CTA, kalkulator, video, widget WhatsApp
+js/form.js              Validasi borang, hantar email, sambung WhatsApp
+tools/generate-pages.py Penjana halaman lokasi & blog
+google-apps-script.js   (Pilihan) simpan lead ke Google Sheets
+assets/                 Ikon, imej ganti, OG image
+images/                 Logo, gambar projek, pasukan, thumbnail video
 ```
+
+## Halaman SEO (Lokasi & Blog)
+
+### Halaman Lokasi (10)
+`bina-rumah-ipoh/` · `bina-rumah-seri-iskandar/` · `bina-rumah-batu-gajah/` ·
+`bina-rumah-kampar/` · `bina-rumah-kuala-kangsar/` · `bina-rumah-taiping/` ·
+`bina-rumah-manjung/` · `bina-rumah-teluk-intan/` · `bina-rumah-kedah/` ·
+`bina-rumah-penang/`
+
+Setiap halaman mengandungi: pengenalan unik, pengetahuan tempatan (pihak berkuasa
+tempatan, keadaan tanah, projek sebenar), senarai kawasan, FAQ khusus lokasi,
+borang, dan pautan ke kawasan berdekatan.
+
+### Artikel Blog (4)
+- `blog/kos-bina-rumah-perak-2026/`
+- `blog/panduan-loan-bina-rumah/`
+- `blog/cara-mohon-lppsA-bina-rumah/`
+- `blog/pelan-rumah-banglo-3-bilik/`
+
+### Cara Tambah / Kemas Kini Halaman
+
+Semua halaman lokasi & blog dijana daripada satu fail data. Untuk tambah kawasan
+atau artikel baharu:
+
+1. Buka `tools/generate-pages.py`
+2. Tambah satu entri ke dalam senarai `LOCATIONS` atau `POSTS`
+3. Jalankan:
+
+```bash
+python3 tools/generate-pages.py
+```
+
+Ini akan menjana semula semua halaman, hub, dan `sitemap.xml` secara automatik.
 
 ## Susunan Funnel
 

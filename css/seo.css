@@ -1,0 +1,183 @@
+/* ============================================================
+   NH Ivory Home Sdn. Bhd. — Halaman kandungan (lokasi & blog)
+   Digunakan bersama css/style.css
+   ============================================================ */
+
+/* ---------- Hero halaman kandungan ---------- */
+.page-hero {
+  padding: calc(var(--header-h) + 44px) 0 3rem;
+  background:
+    radial-gradient(900px 420px at 85% -10%, rgba(200, 16, 46, .10), transparent 60%),
+    linear-gradient(180deg, #fff 0%, var(--bg-soft) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.page-hero h1 { margin-bottom: .6rem; }
+.page-hero .lead { font-size: 1.05rem; max-width: 62ch; color: var(--ink-soft); }
+.page-hero--article { padding-bottom: 2.25rem; }
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4rem;
+  font-size: .82rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+.breadcrumb a { color: var(--muted); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb span[aria-current] { color: var(--ink); font-weight: 600; }
+
+.page-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+
+.trust-chips {
+  list-style: none;
+  padding: 0;
+  margin: 1.75rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.trust-chips li {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .45rem .9rem;
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.trust-chips li strong { color: var(--red); }
+
+/* ---------- Kandungan artikel ---------- */
+.prose { max-width: 78ch; }
+.prose h2 { margin-top: 2.25rem; font-size: clamp(1.35rem, 3vw, 1.75rem); }
+.prose h3 { margin-top: 1.5rem; font-size: 1.12rem; }
+.prose p { color: var(--ink-soft); }
+.prose ul, .prose ol { padding-left: 1.25rem; color: var(--ink-soft); }
+.prose li { margin-bottom: .45rem; }
+.prose a { text-decoration: underline; }
+.prose strong { color: var(--ink); }
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: .92rem;
+}
+.prose th, .prose td {
+  border: 1px solid var(--line);
+  padding: .7rem .85rem;
+  text-align: left;
+}
+.prose th { background: var(--red-soft); color: var(--ink); font-family: "Poppins", sans-serif; }
+.prose tbody tr:nth-child(even) { background: var(--bg-soft); }
+
+.callout {
+  background: var(--red-soft);
+  border-left: 4px solid var(--red);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 1rem 1.15rem;
+  margin: 1.5rem 0;
+  font-size: .94rem;
+  color: var(--ink);
+}
+.callout strong { color: var(--red-dark); }
+
+/* ---------- Senarai kawasan ---------- */
+.area-chips {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.area-chips li {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .45rem .85rem;
+  font-size: .85rem;
+  color: var(--ink);
+}
+
+/* ---------- Kad grid kandungan ---------- */
+.content-grid { display: grid; gap: 1.25rem; margin-top: 1.5rem; }
+.content-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.35rem;
+  border-top: 3px solid var(--red);
+}
+.content-card h3 { font-size: 1.02rem; margin-bottom: .35rem; }
+.content-card p { margin: 0; font-size: .92rem; }
+
+/* ---------- Pautan kawasan/artikel lain ---------- */
+.link-grid { display: grid; gap: .75rem; margin-top: 1.5rem; }
+.link-grid a {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: .85rem 1rem;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: .92rem;
+  transition: border-color .2s ease, transform .2s ease;
+}
+.link-grid a:hover { border-color: var(--red); transform: translateX(4px); color: var(--red); }
+.link-grid a span { display: block; font-weight: 400; font-size: .8rem; color: var(--muted); margin-top: .1rem; }
+
+/* ---------- Artikel blog ---------- */
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1rem;
+  font-size: .82rem;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+}
+.article-meta span { display: inline-flex; align-items: center; gap: .3rem; }
+.article-cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin-bottom: 1.75rem;
+  box-shadow: var(--shadow);
+}
+.toc {
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 1.15rem 1.35rem;
+  margin: 0 0 2rem;
+}
+.toc h2 { font-size: 1rem; margin-bottom: .6rem; }
+.toc ol { margin: 0; padding-left: 1.2rem; font-size: .9rem; }
+.toc li { margin-bottom: .3rem; }
+
+/* ---------- Jalur CTA ---------- */
+.cta-band {
+  background:
+    radial-gradient(700px 320px at 12% 0%, rgba(255, 255, 255, .08), transparent 60%),
+    linear-gradient(150deg, var(--red-dark) 0%, var(--red) 55%, #A00D25 100%);
+  color: #fff;
+  padding: 3.5rem 0;
+}
+.cta-band h2 { color: #fff; }
+.cta-band p { color: #FFD9DF; }
+.cta-band .page-actions { justify-content: center; }
+
+/* ---------- Responsive ---------- */
+@media (min-width: 640px) {
+  .content-grid { grid-template-columns: repeat(2, 1fr); }
+  .link-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .page-hero { padding-top: calc(var(--header-h) + 60px); }
+  .content-grid { grid-template-columns: repeat(3, 1fr); }
+  .link-grid { grid-template-columns: repeat(3, 1fr); }
+}
