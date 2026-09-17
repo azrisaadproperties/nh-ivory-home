@@ -19,6 +19,11 @@ Jangan agih bajet sama rata. Agih ikut di mana anda paling kuat.
 > **Prinsip:** 70% pada apa yang anda sudah mahir. 30% untuk belajar perkara baharu
 > dengan risiko terkawal.
 
+> **Nota ejen (komisen 2%):** Kos iklan adalah **sama** sama ada anda jual rumah RM150k
+> atau RM800k — tetapi komisen 5x lebih besar. **Sasarkan projek bernilai tinggi**
+> (banglo 2 tingkat, spesifikasi premium). Tapis lead untuk bajet lebih tinggi.
+> Lihat `BAJET-MARKETING.md` seksyen 5 untuk kiraan penuh.
+
 ---
 
 ## 2. META ADS — DIRECT LEAD GEN (TERAS)

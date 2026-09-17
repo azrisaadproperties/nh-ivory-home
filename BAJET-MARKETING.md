@@ -76,7 +76,101 @@ Hanya **0.4% – 0.6%** daripada nilai projek RM250,000+. Sangat berbaloi.
 
 ---
 
-## 5. JADUAL HARIAN & TEMPOH
+## 5. EKONOMI EJEN JUALAN — KOMISEN 2%
+
+> **Penting:** Dokumen ini dari perspektif **ejen jualan** yang menerima komisen **2%**
+> daripada harga rumah — bukan kontraktor. Ini mengubah kiraan dengan besar.
+
+### 5.1 Komisen anda
+
+| Nilai Projek | Komisen 2% |
+|---|---|
+| RM150,000 | RM3,000 |
+| RM250,000 | RM5,000 |
+| RM400,000 | RM8,000 |
+| RM600,000 | RM12,000 |
+| RM800,000 | RM16,000 |
+
+### 5.2 Kos iklan berbanding komisen
+
+Kos iklan untuk **1 jualan** = `15 lead × CPL`
+
+| CPL | Kos iklan / jualan | Komisen (RM250k) | **% Komisen** | Komisen bersih |
+|---|---|---|---|---|
+| RM15 | RM225 | RM5,000 | 4.5% | RM4,775 |
+| RM25 | RM375 | RM5,000 | 7.5% | RM4,625 |
+| RM40 | RM600 | RM5,000 | 12% | RM4,400 |
+| RM70 | RM1,050 | RM5,000 | 21% | RM3,950 |
+| RM100 | RM1,500 | RM5,000 | 30% | RM3,500 |
+| RM150 | RM2,250 | RM5,000 | 45% | RM2,750 |
+| **RM333** | **RM5,000** | **RM5,000** | **100%** | **RM0 (seri)** |
+
+### 5.3 Titik pulang modal (break-even)
+
+```
+Break-even CPL = Komisen ÷ Lead per jualan
+               = RM5,000 ÷ 15
+               = RM333
+```
+
+> **Ini berita baik.** Anda hanya rugi jika CPL melebihi **RM333**.
+> Pada CPL realistik RM25–70, anda masih untung besar.
+
+### 5.4 Untuk 5 jualan
+
+| Perkara | Nilai |
+|---|---|
+| Komisen kasar (5 × RM5,000) | RM25,000 |
+| Kos iklan | RM5,000 – RM8,000 |
+| **% komisen untuk iklan** | **20% – 32%** |
+| **Komisen bersih** | **RM17,000 – RM20,000** |
+| ROI iklan | 3.1x – 5x |
+
+### 5.5 Strategi: KEJAR PROJEK BERNILAI TINGGI
+
+Ini penemuan paling penting untuk ejen:
+
+**Kos iklan adalah SAMA** sama ada anda jual rumah RM150k atau RM800k.
+Tetapi **komisen anda 5x lebih besar**.
+
+| Nilai Projek | Komisen 2% | Kos iklan | % Komisen | **Komisen bersih** |
+|---|---|---|---|---|
+| RM150,000 | RM3,000 | RM1,200 | 40% | RM1,800 |
+| RM250,000 | RM5,000 | RM1,200 | 24% | RM3,800 |
+| RM400,000 | RM8,000 | RM1,200 | 15% | RM6,800 |
+| RM600,000 | RM12,000 | RM1,200 | 10% | RM10,800 |
+| **RM800,000** | **RM16,000** | **RM1,200** | **7.5%** | **RM14,800** |
+
+> **Kesimpulan:** satu jualan RM800,000 memberi komisen bersih **8x lebih** daripada
+> jualan RM150,000 — dengan **kos iklan yang sama**.
+>
+> **Fokus pada pelanggan yang mahu banglo 2 tingkat / spesifikasi tinggi**, bukan rumah
+> paling murah. Atau: tapis lead untuk bajet lebih tinggi.
+
+### 5.6 Cara ejen kurangkan kos iklan
+
+| Cara | Kesan |
+|---|---|
+| **Kandungan organik** (FB/IG/TikTok) | Percuma — post video projek setiap minggu |
+| **Rujukan pelanggan lama** | Percuma — tawar hadiah/komisen kongsi |
+| **Tapis lead untuk bajet tinggi** | Komisen naik, kos iklan sama |
+| **Retargeting** | CPL 50% lebih murah |
+| **Video testimoni sebagai kreatif** | CPL turun 30–50% |
+| **Minta syarikat kongsi kos iklan** | Kurangkan % komisen terjejas |
+| **Naikkan komisen jika prestasi bagus** | Runding dengan kontraktor |
+
+### 5.7 Soalan strategik untuk dipertimbang
+
+1. **Siapa bayar iklan?** Anda sendiri, atau dikongsi dengan syarikat?
+2. **Boleh naikkan komisen?** Jika anda bawa lead sendiri, 2% mungkin boleh dirunding
+3. **Fokus projek mana?** Banglo 2 tingkat lebih menguntungkan daripada rumah murah
+
+> **Cadangan:** jika anda bayar iklan sendiri, cuba runding supaya syarikat tanggung
+> sebahagian — kerana anda menjimatkan kos pemasaran mereka sepenuhnya.
+
+---
+
+## 6. JADUAL HARIAN & TEMPOH
 
 75 lead perlu diagihkan sepanjang tempoh kempen:
 
@@ -94,7 +188,7 @@ Hanya **0.4% – 0.6%** daripada nilai projek RM250,000+. Sangat berbaloi.
 
 ---
 
-## 6. PELAN BERFASA
+## 7. PELAN BERFASA
 
 ### Fasa 1 — Ujian (Hari 1–14) · RM1,800 – RM2,100
 - Belanja: **RM130/hari**
@@ -115,7 +209,7 @@ Hanya **0.4% – 0.6%** daripada nilai projek RM250,000+. Sangat berbaloi.
 
 ---
 
-## 7. AGIHAN MENGIKUT SALURAN
+## 8. AGIHAN MENGIKUT SALURAN
 
 | Saluran | Peratus | Jumlah | Sebab |
 |---|---|---|---|
@@ -126,7 +220,7 @@ Hanya **0.4% – 0.6%** daripada nilai projek RM250,000+. Sangat berbaloi.
 
 ---
 
-## 8. KPI MINGGUAN
+## 9. KPI MINGGUAN
 
 Semak setiap minggu dalam **GA4** + **Meta Ads Manager**:
 
@@ -143,7 +237,7 @@ di mana orang berhenti.
 
 ---
 
-## 9. NAIKKAN KUALITI LEAD (KURANGKAN PEMBAZIRAN)
+## 10. NAIKKAN KUALITI LEAD (KURANGKAN PEMBAZIRAN)
 
 Kerana hanya **1 daripada 5 lead** jadi temujanji, kualiti lead amat penting:
 
@@ -161,7 +255,7 @@ Kerana hanya **1 daripada 5 lead** jadi temujanji, kualiti lead amat penting:
 
 ---
 
-## 10. AMARAN REALISTIK
+## 11. AMARAN REALISTIK
 
 | Perkara | Realiti |
 |---|---|
@@ -174,7 +268,9 @@ Kerana hanya **1 daripada 5 lead** jadi temujanji, kualiti lead amat penting:
 
 ---
 
-## 11. KESIMPULAN
+## 12. KESIMPULAN
+
+### Perspektif ejen jualan (komisen 2%)
 
 | Perkara | Nilai |
 |---|---|
@@ -183,10 +279,20 @@ Kerana hanya **1 daripada 5 lead** jadi temujanji, kualiti lead amat penting:
 | Temujanji → jualan | 33% (3:1) |
 | **Lead borang diperlukan** | **75** |
 | **Temujanji diperlukan** | **15** |
-| CPL andaian | RM45 – RM80 |
+| CPL andaian | RM25 – RM70 |
 | **Bajet iklan disyorkan** | **RM5,000 – RM8,000** |
-| Kos per jualan | RM900 – RM1,600 |
-| Peratus nilai jualan | 0.4% – 0.6% |
+| Kos iklan per jualan | RM375 – RM1,050 |
+| **Break-even CPL** | **RM333** |
+| Komisen kasar (5 × RM5,000) | RM25,000 |
+| **Komisen bersih selepas iklan** | **RM17,000 – RM20,000** |
+
+### Tiga perkara paling penting
+
+1. **Break-even CPL RM333** — anda hanya rugi jika CPL melebihi ini. Pada RM25–70,
+   anda untung besar.
+2. **Kejar projek bernilai tinggi** — kos iklan sama, tetapi komisen 5x lebih besar
+   untuk rumah RM800k berbanding RM150k.
+3. **Kandungan organik + rujukan** — percuma. Ini yang turunkan kos iklan paling banyak.
 
 ### Cadangan mula
 **Mula dengan RM3,000 untuk 30 hari pertama** (RM100/hari).
