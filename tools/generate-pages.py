@@ -22,6 +22,8 @@ PHONE_DISPLAY = "011-6336 6464"
 META_PIXEL_ID = ""
 # Google Analytics 4 Measurement ID — contoh: "G-XXXXXXXXXX"
 GA4_ID = "G-6J42DTSYZ3"
+# Google Search Console — kod verification
+GOOGLE_VERIFICATION = "GJwS9dQq0-2aSVOIWlMJwETYgyzF4M3Vlk3kz-L7wO8"
 
 # ------------------------------------------------------------
 # DATA LOKASI
@@ -580,6 +582,7 @@ def head(title, desc, canonical, root, geo=None, og_type="website", published=No
   <meta name="description" content="{desc}">
   <meta name="theme-color" content="#ED1C24">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="google-site-verification" content="{GOOGLE_VERIFICATION}">
   <link rel="canonical" href="{canonical}">{geo_meta}
 
   <meta property="og:type" content="{og_type}">
