@@ -225,15 +225,15 @@
       formEndpointB64: "aHR0cHM6Ly9mb3Jtc3VibWl0LmNvL2FqYXgvYThkYjcyMTI1NWZjZTAyMTA3ZjUzNzNiMWIwZTVkYTk=",
       formCcB64: "YXpyaW1kc2FhZEBnbWFpbC5jb20=",
       appsScriptUrl: "",                             // pilihan: URL Google Apps Script
-      metaPixelId: "{{META_PIXEL_ID}}",              // kosongkan jika tiada
-      ga4Id: "{{GA4_ID}}",                           // kosongkan jika tiada
+      metaPixelId: "",                               // ID Meta Pixel (contoh: 1234567890123456)
+      ga4Id: "",                                     // ID GA4 (contoh: G-XXXXXXXXXX)
       thankyouUrl: "thankyou.html"
     };
   </script>
 
   <!-- Meta Pixel -->
   <script>
-    if (window.NH_CONFIG.metaPixelId && !window.NH_CONFIG.metaPixelId.includes("{{")) {
+    if (window.NH_CONFIG.metaPixelId) {
       !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
       n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -246,7 +246,7 @@
 
   <!-- GA4 -->
   <script>
-    if (window.NH_CONFIG.ga4Id && !window.NH_CONFIG.ga4Id.includes("{{")) {
+    if (window.NH_CONFIG.ga4Id) {
       var gs = document.createElement('script');
       gs.async = true;
       gs.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.NH_CONFIG.ga4Id;

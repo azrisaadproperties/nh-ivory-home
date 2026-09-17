@@ -16,13 +16,13 @@
     window.NH_CONFIG = {
       companyName: "NH Ivory Home Sdn. Bhd.",
       whatsapp: "601163364664",
-      metaPixelId: "{{META_PIXEL_ID}}",
-      ga4Id: "{{GA4_ID}}"
+      metaPixelId: "",
+      ga4Id: ""
     };
   </script>
 
   <script>
-    if (window.NH_CONFIG.metaPixelId && !window.NH_CONFIG.metaPixelId.includes("{{")) {
+    if (window.NH_CONFIG.metaPixelId) {
       !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
       n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -35,7 +35,7 @@
   </script>
 
   <script>
-    if (window.NH_CONFIG.ga4Id && !window.NH_CONFIG.ga4Id.includes("{{")) {
+    if (window.NH_CONFIG.ga4Id) {
       var gs = document.createElement('script');
       gs.async = true;
       gs.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.NH_CONFIG.ga4Id;

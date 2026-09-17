@@ -16,6 +16,14 @@ CC_B64 = "YXpyaW1kc2FhZEBnbWFpbC5jb20="
 PHONE_DISPLAY = "011-6336 6464"
 
 # ------------------------------------------------------------
+# TRACKING — isi ID di sini sahaja, kemudian jalankan penjana
+# ------------------------------------------------------------
+# Meta Pixel ID (Facebook/Instagram) — contoh: "1234567890123456"
+META_PIXEL_ID = ""
+# Google Analytics 4 Measurement ID — contoh: "G-XXXXXXXXXX"
+GA4_ID = ""
+
+# ------------------------------------------------------------
 # DATA LOKASI
 # ------------------------------------------------------------
 LOCATIONS = [
@@ -601,13 +609,13 @@ def head(title, desc, canonical, root, geo=None, og_type="website", published=No
       formEndpointB64: "{FORM_B64}",
       formCcB64: "{CC_B64}",
       appsScriptUrl: "",
-      metaPixelId: "{{{{META_PIXEL_ID}}}}",
-      ga4Id: "{{{{GA4_ID}}}}",
+      metaPixelId: "{META_PIXEL_ID}",
+      ga4Id: "{GA4_ID}",
       thankyouUrl: "{root}thankyou.html"
     }};
   </script>
   <script>
-    if (window.NH_CONFIG.metaPixelId && !window.NH_CONFIG.metaPixelId.includes("{{{{")) {{
+    if (window.NH_CONFIG.metaPixelId) {{
       !function(f,b,e,v,n,t,s){{if(f.fbq)return;n=f.fbq=function(){{n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)}};if(!f._fbq)f._fbq=n;
       n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -615,6 +623,18 @@ def head(title, desc, canonical, root, geo=None, og_type="website", published=No
       document,'script','https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', window.NH_CONFIG.metaPixelId);
       fbq('track', 'PageView');
+    }}
+  </script>
+  <script>
+    if (window.NH_CONFIG.ga4Id) {{
+      var gs = document.createElement('script');
+      gs.async = true;
+      gs.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.NH_CONFIG.ga4Id;
+      document.head.appendChild(gs);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){{ dataLayer.push(arguments); }};
+      gtag('js', new Date());
+      gtag('config', window.NH_CONFIG.ga4Id);
     }}
   </script>
 </head>
