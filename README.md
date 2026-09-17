@@ -129,25 +129,23 @@ window.NH_CONFIG = {
 };
 ```
 
-> **Nota privasi:** email tujuan borang disimpan dalam bentuk **base64** (`formEndpointB64`,
-> `formCcB64`) supaya tidak kelihatan sebagai teks biasa dalam sumber halaman.
-> Untuk menyembunyikannya sepenuhnya, gunakan **alias rawak FormSubmit**
-> (contoh `https://formsubmit.co/ajax/el/xxxxxxxx`) yang diberi selepas pengaktifan,
-> dan letakkan URL itu ke `formEndpointB64` (base64).
+> **Nota privasi:** endpoint borang disimpan dalam bentuk **base64** (`formEndpointB64`,
+> `formCcB64`) dan menggunakan **alias rawak FormSubmit** — jadi email sebenar anda
+> **tidak kelihatan langsung** dalam kod, walaupun repo ini public.
 
-Cara encode email/URL anda sendiri ke base64:
+Cara encode URL/email anda sendiri ke base64:
 
 ```bash
-python3 -c "import base64;print(base64.b64encode(b'https://formsubmit.co/ajax/EMAIL_ANDA').decode())"
+python3 -c "import base64;print(base64.b64encode(b'https://formsubmit.co/ajax/ALIAS_ANDA').decode())"
 ```
 
-### 2. Aktifkan email borang (WAJIB — sekali sahaja)
-FormSubmit menghantar email pengaktifan ke email tujuan (azrisaadproperties@gmail.com).
-Buka email tersebut dan klik **"Activate Form"**. Selepas diaktifkan, semua penghantaran
-borang akan sampai ke email itu beserta CC ke azrimdsaad@gmail.com.
+### 2. Aktifkan email borang (SUDAH SELESAI)
+FormSubmit telah diaktifkan. Alias rawak `a8db721255fce02107f5373b1b0e5da9` digunakan
+untuk menghantar lead ke email tujuan, dengan CC ke `azrimdsaad@gmail.com`.
 
-> Jika alamat email bertukar, tukar `formEndpointB64` dan hantar satu penghantaran ujian
-> untuk mencetuskan email pengaktifan baharu.
+> Jika alamat email bertukar: cipta alias baharu, tukar `FORM_B64` dalam
+> `tools/generate-pages.py` dan `formEndpointB64` dalam `index.html`, kemudian jalankan
+> `python3 tools/generate-pages.py`.
 
 ### 3. (Pilihan) Simpan lead ke Google Sheets
 Ikut arahan di dalam `google-apps-script.js`, kemudian tampal URL `/exec` ke `appsScriptUrl`.
@@ -326,8 +324,8 @@ Kemudian di GitHub:
 ### Selepas deploy
 
 - Ganti `{{DOMAIN_ANDA}}` dalam `index.html` dengan domain sebenar
-- Ganti `formEndpointB64` dengan **alias rawak FormSubmit** (`https://formsubmit.co/ajax/el/xxxxx`)
-  kerana repo GitHub public dan kod boleh dilihat sesiapa
+- Endpoint borang sudah guna **alias rawak FormSubmit** — email anda tidak kelihatan dalam kod
+  (sudah dilaksanakan)
 - Uji hantar borang sebenar dan pastikan email + WhatsApp berfungsi
 
 ## Platform Lain

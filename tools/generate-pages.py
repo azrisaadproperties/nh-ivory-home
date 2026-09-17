@@ -11,7 +11,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 
 SITE = "https://azrisaadproperties.github.io/nh-ivory-home"
 WHATSAPP = "601163364664"
-FORM_B64 = "aHR0cHM6Ly9mb3Jtc3VibWl0LmNvL2FqYXgvYXpyaXNhYWRwcm9wZXJ0aWVzQGdtYWlsLmNvbQ=="
+FORM_B64 = "aHR0cHM6Ly9mb3Jtc3VibWl0LmNvL2FqYXgvYThkYjcyMTI1NWZjZTAyMTA3ZjUzNzNiMWIwZTVkYTk="
 CC_B64 = "YXpyaW1kc2FhZEBnbWFpbC5jb20="
 PHONE_DISPLAY = "011-6336 6464"
 
