@@ -352,6 +352,7 @@ a:hover { color: var(--red-dark); }
 }
 .price { margin: .25rem 0 0; }
 .price span { font-family: "Poppins", sans-serif; font-size: 2rem; font-weight: 800; color: var(--red); }
+.price .price-text { font-size: 1.5rem; letter-spacing: -.01em; }
 .price-note { font-size: .85rem; color: var(--muted); }
 .check-list { list-style: none; padding: 0; margin: 1.25rem 0; display: grid; gap: .55rem; text-align: left; }
 .check-list li { position: relative; padding-left: 1.6rem; font-size: .93rem; }
