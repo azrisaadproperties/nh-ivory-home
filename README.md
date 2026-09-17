@@ -1,0 +1,229 @@
+# NH Ivory Home Sdn. Bhd. — Web Sales Funnel
+
+Landing page jualan untuk perkhidmatan **bina rumah / banglo atas tanah sendiri** di
+**Perak, Kedah & Pulau Pinang**.
+
+Funnel: **Iklan → Landing Page → Borang → Lead masuk Google Sheets + WhatsApp → Konsultasi Percuma**.
+
+## Info Syarikat (telah dimasukkan)
+
+| Perkara | Nilai |
+|---|---|
+| Nama Syarikat | NH Ivory Home Sdn. Bhd. |
+| No. Syarikat | 20200101283 (1369193-H) |
+| Lesen CIDB | G4 · 0120210118-WP066824 |
+| MOF | Berdaftar |
+| Beroperasi sejak | 02 Jun 2020, Seri Iskandar, Perak |
+| Ibu Pejabat | No 70A, Persiaran SIBC 4, Bandar Seri Iskandar, 32610 Seri Iskandar, Perak |
+| WhatsApp Lead | 011-6336 6464 (601163364664) |
+| Liputan | Perak, Kedah, Pulau Pinang |
+| Kaedah binaan | Tunai, Loan Bank, LPPSA |
+| Reka bentuk | 100+ pilihan |
+| Pelanggan | 2000++ |
+
+Sosial: [Facebook](https://www.facebook.com/NHhomeconstruction/) ·
+[Instagram](https://www.instagram.com/nhivoryhome_/) ·
+[TikTok](https://www.tiktok.com/@nhivoryhome_) ·
+[YouTube](https://www.youtube.com/@NHIVORYHOMESDNBHD) ·
+[Telegram](https://t.me/+UbHbsPCZ6D7qQTLB)
+
+## Struktur Fail
+
+```
+index.html              Landing page penuh (semua section funnel)
+thankyou.html           Halaman selepas hantar borang (conversion page)
+css/style.css           Tema merah, responsive mobile-first
+js/main.js              Header, menu, sticky CTA, kalkulator ansuran, tracking
+js/form.js              Validasi borang, hantar ke Sheets, sambung WhatsApp
+google-apps-script.js   Kod Google Apps Script untuk simpan lead
+assets/placeholder.svg  Gambar ganti sementara
+assets/favicon.svg      Ikon laman
+assets/og-image.webp    Imej pratonton pautan (Open Graph)
+images/                 Logo, gambar projek, pasukan, badge sijil
+```
+
+## Susunan Funnel
+
+1. Hero + CTA "Konsultasi Percuma" (harga mula, 2000++ pelanggan, CIDB/MOF/SSM)
+2. Tentang Kami (bumiputera, Seri Iskandar, sejak 2020, badge SSM/CIDB/MOF)
+3. Masalah pelanggan (kontraktor lari duit, kos naik, lewat siap, kelulusan rumit)
+4. Kenapa NH Ivory Home (6 value prop)
+5. Pakej & Harga (Rumah Sederhana / Banglo Moden / Banglo 2 Tingkat)
+6. Tunai · Loan Bank · LPPSA + kalkulator ansuran
+7. Proses 5 langkah
+8. Projek terkini (gambar sebenar) + testimoni + link Google Reviews
+9. Video testimoni (4 video YouTube sebenar — klik untuk main)
+10. FAQ
+11. Borang ringkas (nama, no. WhatsApp, lokasi) → terus ke WhatsApp + email
+12. Butang WhatsApp terapung beranimasi + popup pertanyaan
+
+## Borang Ringkas
+
+Borang hanya meminta **3 maklumat**: Nama, No. WhatsApp, Lokasi Tanah.
+
+Bila dihantar:
+1. Data dihantar ke email `azrisaadproperties@gmail.com` (CC `azrimdsaad@gmail.com`) melalui FormSubmit
+2. Pelayar terus dibuka ke WhatsApp `601163364664` dengan mesej pra-isi lengkap
+3. Event `Lead` dipicu untuk Meta Pixel / GA4
+
+Butang WhatsApp terapung (kanan bawah) juga membuka **popup pertanyaan** dengan borang ringkas yang sama,
+lengkap dengan animasi pulse, bobbing dan label "Tanya kami".
+
+## Setup Pantas
+
+### 1. Isi baki butiran
+Buka `index.html` dan `thankyou.html`, cari objek `window.NH_CONFIG` di bahagian `<head>`:
+
+```js
+window.NH_CONFIG = {
+  companyName: "NH Ivory Home Sdn. Bhd.",
+  whatsapp: "601163364664",                      // borang & butang WhatsApp
+  formEndpointB64: "aHR0cHM6...",                // endpoint borang (base64)
+  formCcB64: "YXpyaW1k...",                      // CC (base64)
+  appsScriptUrl: "",                             // pilihan
+  metaPixelId: "{{META_PIXEL_ID}}",              // kosongkan jika tiada
+  ga4Id: "{{GA4_ID}}",                           // kosongkan jika tiada
+  thankyouUrl: "thankyou.html"
+};
+```
+
+> **Nota privasi:** email tujuan borang disimpan dalam bentuk **base64** (`formEndpointB64`,
+> `formCcB64`) supaya tidak kelihatan sebagai teks biasa dalam sumber halaman.
+> Untuk menyembunyikannya sepenuhnya, gunakan **alias rawak FormSubmit**
+> (contoh `https://formsubmit.co/ajax/el/xxxxxxxx`) yang diberi selepas pengaktifan,
+> dan letakkan URL itu ke `formEndpointB64` (base64).
+
+Cara encode email/URL anda sendiri ke base64:
+
+```bash
+python3 -c "import base64;print(base64.b64encode(b'https://formsubmit.co/ajax/EMAIL_ANDA').decode())"
+```
+
+### 2. Aktifkan email borang (WAJIB — sekali sahaja)
+FormSubmit menghantar email pengaktifan ke email tujuan (azrisaadproperties@gmail.com).
+Buka email tersebut dan klik **"Activate Form"**. Selepas diaktifkan, semua penghantaran
+borang akan sampai ke email itu beserta CC ke azrimdsaad@gmail.com.
+
+> Jika alamat email bertukar, tukar `formEndpointB64` dan hantar satu penghantaran ujian
+> untuk mencetuskan email pengaktifan baharu.
+
+### 3. (Pilihan) Simpan lead ke Google Sheets
+Ikut arahan di dalam `google-apps-script.js`, kemudian tampal URL `/exec` ke `appsScriptUrl`.
+Jika dibiarkan kosong, borang tetap berfungsi (email + WhatsApp sahaja).
+
+### 4. Ganti gambar
+Gambar sebenar syarikat telah dimuat turun ke `images/`. Ganti bila-bila masa dengan
+gambar beresolusi lebih tinggi menggunakan nama fail yang sama.
+
+### 5. Video testimoni
+4 video YouTube sebenar telah dipasang dengan teknik *click-to-play* (iframe hanya
+dimuatkan apabila diklik, jadi laman kekal laju). Untuk tukar video, edit `data-video-id`
+pada setiap `.video-card` dalam `index.html` dan ganti thumbnail `images/video-<id>.jpg`.
+
+| Video | Pelanggan | Lokasi |
+|---|---|---|
+| `3b99AdeMBm0` | Pn Hasmah & Tn Noor Azli | Banglo Purewhite · Teluk Intan |
+| `LQ4S8xInyRo` | Pn Nadia & Tn Huzaime | Banglo Stellar · Beruas |
+| `dQCfAOQyIXU` | Tn Alias & Isteri | Banglo Amaya · Chemor |
+| `hFpAzdWM1x8` | Pn Hjh Aishah & Tn Hj Saiful | Banglo Audela · Batu Gajah |
+
+### 6. Testimoni & Google Reviews
+Seksyen testimoni memaparkan **rating 4.9/5 daripada 36 review Google** dan 4 review
+sebenar dari profil Google Business NH Ivory Home:
+
+| Pengulas | Bintang | Bila |
+|---|---|---|
+| Muzi Darwish | 5 | 4 bulan lalu |
+| Sinarto Khiron | 5 | Setahun lalu |
+| Akmal Harith Azhar (Local Guide) | 5 | Setahun lalu |
+| Ira Syira | 5 | Sebulan lalu |
+
+Untuk menambah/mengemas kini review, edit blok `<article class="card google-review">`
+dalam `index.html` (di dalam seksyen `#projek`).
+
+## Placeholder Yang Masih Perlu Diisi
+
+| Placeholder | Keterangan |
+|---|---|
+| `{{META_PIXEL_ID}}` | ID Meta Pixel untuk tracking iklan |
+| `{{GA4_ID}}` | ID Google Analytics 4 |
+| `{{DOMAIN_ANDA}}` | Domain laman (untuk Open Graph) |
+| `{{MASA_RESPON}}` | Masa respons kepada lead (contoh: "30 minit") |
+| `{{HARGA_BANGLO}}` | Harga anggaran banglo moden (contoh: RM250,000) |
+| `{{HARGA_2TINGKAT}}` | Harga anggaran banglo 2 tingkat |
+
+> **Perhatian:** Harga permulaan dipaparkan sebagai **RM13X,000** mengikut laman web
+> rasmi syarikat. Sila sahkan angka sebenar sebelum kempen iklan dijalankan.
+
+## Tracking
+- Event `PageView` — setiap lawatan
+- Event `Lead` — dihantar dari `form.js` apabila borang atau popup dihantar
+- Event `Contact` — klik butang WhatsApp terapung / popup / sticky
+- Event `InitiateCheckout` — klik CTA pakej / tunai / loan / LPPSA
+- Event `ViewContent` — video testimoni dimainkan
+
+> `thankyou.html` dikekalkan sebagai halaman pilihan (tidak digunakan dalam aliran
+> semasa kerana borang terus membuka WhatsApp).
+
+## Ujian Tempatan
+
+```bash
+python3 -m http.server 8080
+```
+
+Kemudian buka `http://localhost:8080`.
+
+## Deploy Ke GitHub Pages
+
+Laman ini sudah disediakan untuk GitHub Pages:
+
+- `.nojekyll` — halang GitHub memproses fail dengan Jekyll
+- `404.html` — halaman ralat yang membawa pengunjung balik ke laman utama
+- Semua laluan fail adalah **relatif**, jadi ia berfungsi walaupun dihoskan di sub-folder
+  (`username.github.io/nama-repo/`)
+
+### Langkah
+
+```bash
+# 1. Cipta repo di GitHub (contoh: nh-ivory-home)
+gh repo create nh-ivory-home --public --source=. --remote=origin
+
+# 2. Commit & push
+git add .
+git commit -m "Laman web sales funnel NH Ivory Home"
+git push -u origin main
+```
+
+Kemudian di GitHub:
+
+1. Buka repo → **Settings** → **Pages**
+2. Di bawah **Build and deployment** → **Source**, pilih **Deploy from a branch**
+3. **Branch**: `main` · **Folder**: `/ (root)` → **Save**
+4. Tunggu 1–2 minit. Laman akan hidup di `https://<username>.github.io/nh-ivory-home/`
+
+### Domain sendiri (disyorkan untuk iklan)
+
+1. Beli domain (contoh: `nhivoryhome-lead.com`)
+2. Di GitHub **Pages** → **Custom domain**, taip domain anda → **Save**
+3. Di penyedia domain, tambah rekod DNS:
+
+   | Jenis | Nama | Nilai |
+   |---|---|---|
+   | A | @ | 185.199.108.153 |
+   | A | @ | 185.199.109.153 |
+   | A | @ | 185.199.110.153 |
+   | A | @ | 185.199.111.153 |
+   | CNAME | www | `<username>.github.io` |
+
+4. Tunggu DNS propagate, kemudian tanda **Enforce HTTPS**
+
+### Selepas deploy
+
+- Ganti `{{DOMAIN_ANDA}}` dalam `index.html` dengan domain sebenar
+- Ganti `formEndpointB64` dengan **alias rawak FormSubmit** (`https://formsubmit.co/ajax/el/xxxxx`)
+  kerana repo GitHub public dan kod boleh dilihat sesiapa
+- Uji hantar borang sebenar dan pastikan email + WhatsApp berfungsi
+
+## Platform Lain
+Netlify, Cloudflare Pages, Vercel atau hosting cPanel — semua fail boleh dimuat naik
+terus tanpa proses build.

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terima Kasih | NH Ivory Home Sdn. Bhd.</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#ED1C24">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    window.NH_CONFIG = {
+      companyName: "NH Ivory Home Sdn. Bhd.",
+      whatsapp: "601163364664",
+      metaPixelId: "{{META_PIXEL_ID}}",
+      ga4Id: "{{GA4_ID}}"
+    };
+  </script>
+
+  <script>
+    if (window.NH_CONFIG.metaPixelId && !window.NH_CONFIG.metaPixelId.includes("{{")) {
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', window.NH_CONFIG.metaPixelId);
+      fbq('track', 'PageView');
+      fbq('track', 'Lead', { content_name: 'Borang Sebut Harga' });
+    }
+  </script>
+
+  <script>
+    if (window.NH_CONFIG.ga4Id && !window.NH_CONFIG.ga4Id.includes("{{")) {
+      var gs = document.createElement('script');
+      gs.async = true;
+      gs.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.NH_CONFIG.ga4Id;
+      document.head.appendChild(gs);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){ dataLayer.push(arguments); };
+      gtag('js', new Date());
+      gtag('config', window.NH_CONFIG.ga4Id);
+      gtag('event', 'generate_lead');
+    }
+  </script>
+</head>
+<body class="ty-page">
+
+  <header class="site-header scrolled">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="NH Ivory Home Sdn. Bhd." class="brand-logo">
+      </a>
+      <a href="index.html" class="btn btn-outline btn-sm" style="margin-left:auto">Kembali ke Laman</a>
+    </div>
+  </header>
+
+  <main class="ty-main">
+    <div class="container container-narrow">
+      <div class="ty-card">
+        <div class="ty-icon" aria-hidden="true">&#10003;</div>
+        <h1>Terima Kasih, <span id="tyNama">Tuan/Puan</span>!</h1>
+        <p class="lead">
+          Permohonan sebut harga anda telah kami terima. Pasukan NH Ivory Home akan
+          menghubungi anda di WhatsApp dalam masa <strong>{{MASA_RESPON}}</strong>.
+        </p>
+
+        <div class="ty-steps">
+          <h2>Langkah Seterusnya</h2>
+          <ol class="steps">
+            <li class="step">
+              <span class="step-no">1</span>
+              <h3>Kami Hubungi Anda</h3>
+              <p>Perunding kami akan menghubungi anda untuk mengesahkan butiran.</p>
+            </li>
+            <li class="step">
+              <span class="step-no">2</span>
+              <h3>Temu Janji Konsultasi</h3>
+              <p>Kami tetapkan tarikh untuk berbincang keperluan dan bajet anda.</p>
+            </li>
+            <li class="step">
+              <span class="step-no">3</span>
+              <h3>Sebut Harga &amp; Pelan</h3>
+              <p>Anda terima sebut harga terperinci dan cadangan pelan lantai.</p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="ty-actions">
+          <a href="#" id="tyWhatsapp" class="btn btn-wa btn-lg" target="_blank" rel="noopener">
+            <span class="wa-icon" aria-hidden="true">&#128172;</span> WhatsApp Kami Sekarang
+          </a>
+          <a href="index.html" class="btn btn-outline btn-lg">Lihat Pakej &amp; Projek</a>
+        </div>
+
+        <p class="ty-note">
+          Simpan nombor WhatsApp kami: <strong>011-6336 6464</strong>
+          supaya anda tidak terlepas panggilan kami.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom" style="border:0;margin-top:0">
+      <p>&copy; <span id="year"></span> NH Ivory Home Sdn. Bhd. Hak cipta terpelihara.</p>
+      <p class="disclaimer">No. Syarikat: 20200101283 (1369193-H) · CIDB: G4 · 0120210118-WP066824 · MOF: Berdaftar</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      "use strict";
+      var CONFIG = window.NH_CONFIG || {};
+
+      function normalisePhone(raw) {
+        var d = String(raw || "").replace(/[^0-9]/g, "");
+        if (d.indexOf("0") === 0) d = "60" + d.slice(1);
+        return d;
+      }
+
+      var lead = null;
+      try { lead = JSON.parse(sessionStorage.getItem("nh_lead") || "null"); } catch (e) { lead = null; }
+
+      if (lead && lead.nama) {
+        var namaEl = document.getElementById("tyNama");
+        if (namaEl) namaEl.textContent = lead.nama.split(" ")[0];
+      }
+
+      var link = document.getElementById("tyWhatsapp");
+      var waUrl = (lead && lead.waUrl) || ("https://wa.me/" + normalisePhone(CONFIG.whatsapp) +
+        "?text=" + encodeURIComponent("Hai NH Ivory Home, saya baru isi borang sebut harga bina banglo."));
+      if (link) link.setAttribute("href", waUrl);
+
+      var y = document.getElementById("year");
+      if (y) y.textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
