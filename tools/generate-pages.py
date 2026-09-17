@@ -21,7 +21,7 @@ PHONE_DISPLAY = "011-6336 6464"
 # Meta Pixel ID (Facebook/Instagram) — contoh: "1234567890123456"
 META_PIXEL_ID = ""
 # Google Analytics 4 Measurement ID — contoh: "G-XXXXXXXXXX"
-GA4_ID = ""
+GA4_ID = "G-6J42DTSYZ3"
 
 # ------------------------------------------------------------
 # DATA LOKASI
