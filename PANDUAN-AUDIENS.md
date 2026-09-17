@@ -165,7 +165,113 @@ Kempen: [RETARGET] Bina Rumah
 
 ---
 
-## 6. KESILAPAN BIASA
+## 6. PENTING: DUPLICATE SAHAJA TIDAK CUKUP
+
+> **Soalan yang betul:** kalau kreatif itu yang tarik minat audiens, apa gunanya
+> duplicate kempen menang tetapi tukar kreatif?
+
+Jawapannya: **anda betul — kreatif ialah pembolehubah terbesar.** Nasihat "duplicate
+dan tukar kreatif" hanya sebahagian cerita. Ini penjelasan penuh.
+
+### 6.1 Apa yang sebenarnya diwarisi bila duplicate
+
+| Elemen | Diwarisi? | Nota |
+|---|---|---|
+| Lokasi, umur, jantina | ✅ Ya | Targeting |
+| Interest / detailed targeting | ✅ Ya | Targeting |
+| Custom / Lookalike audience | ✅ Ya | Targeting |
+| Objective & optimization | ✅ Ya | Struktur |
+| Penempatan (placement) | ✅ Ya | Struktur |
+| **Kreatif** | ❌ **Tidak** | Anda tukar |
+| **Tawaran (offer)** | ❌ **Tidak** | Anda tukar |
+| Sejarah engagement iklan | ❌ Tidak | Mula dari kosong |
+
+> **Kesimpulan:** anda hanya mewarisi **siapa** yang disasarkan — bukan **apa** yang
+> membuatkan mereka berhenti scroll.
+
+### 6.2 Jadi apa gunanya duplicate?
+
+Ia **mengasingkan pembolehubah** (isolate variables).
+
+```
+Kempen asal  = Audien A × Kreatif X × Tawaran X  → RM6.06
+Kempen baharu = Audien A × Kreatif Y × Tawaran Y  → ???
+```
+
+Anda sudah **tahu audien A murah**. Jadi bila anda tukar kreatif, anda tidak perlu
+pening fikir audiens. Fokus pada kreatif & tawaran sahaja.
+
+**Ini bukan jaminan murah** — ia hanya menghapuskan satu pembolehubah.
+
+### 6.3 KENAPA kempen anda murah? (analisis)
+
+Ini yang perlu difahami sebelum tiru apa-apa:
+
+| Kempen | Kos | Tawaran | Spesifik? |
+|---|---|---|---|
+| TANAH CHANGKAT JERING | RM3.27 | Tanah untuk dijual | ✅ **Sangat spesifik** (lokasi tepat) |
+| Property & Refinance 15/9 | RM6.06 | Perkhidmatan refinance | 🟡 Separuh |
+| Agriculture Changkat Jering | RM7.29 | Tanah pertanian | ✅ Spesifik |
+| Property & Refinance 17/9 | RM7.38 | Refinance | 🟡 Separuh |
+
+**Pola:** kempen termurah adalah yang **spesifik + nyata + ada lokasi**.
+Bukan iklan generik "kami ada perkhidmatan".
+
+> **Pengajaran:** yang murah bukan audiens sahaja — tetapi **kombinasi**
+> audiens + tawaran yang sangat spesifik.
+
+### 6.4 Cara betul: TIRU FORMULA, bukan sekadar audiens
+
+Jangan sekadar duplicate. **Tiru pola kreatif yang menang.**
+
+| Iklan asal (murah) | Iklan bina rumah (tiru pola) |
+|---|---|
+| "TANAH CHANGKAT JERING" — lokasi tepat | "Bina Rumah Di Ipoh — Bermula RM13X,000" |
+| Gambar tanah sebenar | Gambar tanah kosong → rumah siap |
+| Harga/ukuran nyata | Harga nyata + saiz nyata |
+| Nama tempat disebut | Nama kawasan disebut |
+
+**Contoh kreatif yang meniru pola:**
+
+```
+❌ GENERIK (mahal):
+"Kami kontraktor bina rumah. Hubungi kami."
+→ Tiada lokasi, tiada harga, tiada kekhususan
+
+✅ SPESIFIK (murah):
+"Pemilik tanah di Ipoh — kami bina rumah anda bermula RM13X,000.
+Lihat projek kami di Chemor dan Batu Gajah."
+→ Ada lokasi, ada harga, ada bukti
+```
+
+### 6.5 Ujian yang betul (A/B)
+
+Jangan andaikan. Uji secara terkawal:
+
+| Ujian | Audien | Kreatif | Soalan |
+|---|---|---|---|
+| Ujian 1 | Sama | **Berbeza** | Kreatif mana lebih murah? |
+| Ujian 2 | **Berbeza** | Sama | Audien mana lebih murah? |
+
+**Ujian 1** — itulah yang anda buat bila duplicate kempen menang dan tukar kreatif.
+Ini **sah** dan berguna, tetapi sedar ia menguji **kreatif**, bukan audiens.
+
+> **Peraturan:** tukar **satu pembolehubah sahaja** setiap ujian. Kalau tukar
+> audiens DAN kreatif sekali, anda tak akan tahu mana yang menyebabkan perbezaan.
+
+### 6.6 Ringkasan seksyen ini
+
+| Soalan | Jawapan |
+|---|---|
+| Adakah kreatif yang tarik minat? | **Ya** — ia pembolehubah terbesar |
+| Jadi apa guna duplicate? | Ia mewarisi **targeting** yang sudah terbukti murah |
+| Adakah ia jaminan? | **Tidak** — hanya menghapuskan 1 pembolehubah |
+| Yang paling penting? | Faham **KENAPA** murah, kemudian **tiru formula** |
+| Formula murah anda? | **Spesifik + lokasi nyata + harga nyata + bukti** |
+
+---
+
+## 7. KESILAPAN BIASA
 
 | Kesilapan | Betulkan |
 |---|---|
@@ -178,7 +284,7 @@ Kempen: [RETARGET] Bina Rumah
 
 ---
 
-## 7. RINGKASAN
+## 8. RINGKASAN
 
 | Perkara | Jawapan |
 |---|---|
