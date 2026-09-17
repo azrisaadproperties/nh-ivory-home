@@ -1,163 +1,163 @@
 # Bajet Marketing — Sasaran 5 Buah Rumah
 
-> Dokumen ini mengira bajet iklan yang diperlukan untuk mendapat **5 jualan (rumah dibina)**
-> berdasarkan **closing ratio 3:1**, untuk NH Ivory Home Sdn. Bhd.
+> Dokumen ini mengira bajet iklan untuk **5 jualan (rumah dibina)** berdasarkan
+> funnel sebenar NH Ivory Home Sdn. Bhd.
 
 ---
 
-## 1. JELASKAN DULU: APA MAKSUD "3:1"?
+## 1. FUNNEL SEBENAR (Disahkan)
 
-Tafsiran ini mengubah bajet **secara besar**. Dua tafsiran biasa:
+```
+5 lead borang  →  1 temujanji        (kadar 20%)
+3 temujanji    →  1 jualan           (closing 3:1, kadar 33%)
+```
 
-| Tafsiran | Maksud | Kesan |
-|---|---|---|
-| **A. 3 temujanji → 1 jualan** | Setiap 3 sesi konsultasi/temujanji, 1 jadi projek | Paling biasa untuk kontraktor |
-| **B. 3 lead → 1 jualan** | Setiap 3 borang masuk, 1 jadi projek | Sangat optimis untuk high-ticket |
+**Gabungan:** `5 × 3 = 15 lead borang` untuk **1 jualan**.
 
-> Dokumen ini menggunakan **Tafsiran A** (3 temujanji : 1 jualan) sebagai asas, kerana ia
-> realistik untuk projek bernilai RM200,000–RM800,000 yang mengambil masa berbulan untuk diputuskan.
+| Kadar | Nilai |
+|---|---|
+| Lead borang → temujanji | 20% (5:1) |
+| Temujanji → jualan | 33% (3:1) |
+| **Lead borang → jualan** | **6.7% (15:1)** |
+
+> **Nota penting:** tidak semua 5 lead borang "sesuai". Ini sudah dikira dalam kadar 20% —
+> 4 daripada 5 lead tidak akan sampai ke peringkat temujanji. Itu **normal**, bukan kegagalan.
 
 ---
 
-## 2. MATEMATIK FUNNEL TERBALIK
-
-Untuk dapat **5 jualan**, kita kira ke belakang:
+## 2. MATEMATIK TERBALIK — UNTUK 5 JUALAN
 
 ```
 5 jualan
-   ÷ 33%  (closing 3:1)
-   = 15 temujanji
-
-15 temujanji
-   ÷ 30%  (lead → temujanji)
-   = 50 lead berkualiti
-
-50 lead
-   × RM50 (kos per lead)
-   = RM2,500 belanja iklan
+   × 3 temujanji        = 15 temujanji
+   × 5 lead borang      = 75 lead borang
 ```
 
-**Rangka penuh:**
+**Untuk 5 rumah terjual, anda perlukan:**
 
-| Peringkat | Kadar Tukar | Untuk 5 Jualan |
-|---|---|---|
-| Jualan | — | **5** |
-| Temujanji | 33% (3:1) | 15 |
-| Lead berkualiti | 30–50% | 30–50 |
-| Semua lead (termasuk tire-kicker) | 50% | 60–100 |
-| Klik | 5–12% dari lawatan | 800–1,500 |
-| Tayangan iklan | CTR 1–2% | 50,000–120,000 |
+| Peringkat | Bilangan |
+|---|---|
+| Jualan | **5** |
+| Temujanji | **15** |
+| Lead borang | **75** |
 
 ---
 
-## 3. ANDAIAN KOS (Pasaran Malaysia)
+## 3. ANDAIAN KOS PER LEAD (CPL)
 
-| Metrik | Julat Realistik | Nota |
+Untuk niche pembinaan rumah di Malaysia (Meta & Google Ads):
+
+| Saluran | CPL Realistik | Nota |
 |---|---|---|
-| Kos per klik (CPC) | RM0.80 – RM2.50 | Meta lebih murah, Google lebih mahal |
-| Kos per lead (CPL) — Meta | RM25 – RM70 | Borang + WhatsApp |
-| Kos per lead (CPL) — Google | RM40 – RM120 | Niat lebih tinggi ("kontraktor bina rumah perak") |
-| Kadar lawatan → lead | 5% – 12% | Landing page kita sudah dioptimumkan |
+| Meta (FB/IG) | RM25 – RM70 | Borang + butang WhatsApp |
+| Google Search | RM40 – RM120 | Niat lebih tinggi |
+| Retargeting | RM15 – RM40 | Paling murah |
 
-**Nota penting:** projek bina rumah bernilai tinggi, jadi CPL di niche ini **lebih tinggi**
-berbanding produk murah. Jangan bandingkan dengan CPL jual baju.
+> CPL di niche ini **lebih tinggi** daripada produk murah. Jangan bandingkan dengan
+> kos lead jual baju atau kursus.
 
 ---
 
-## 4. TIGA SENARIO BAJET
+## 4. SENARIO BAJET
 
-| Senario | Lead diperlukan | CPL | **Belanja Iklan** | Kos per Jualan |
-|---|---|---|---|---|
-| **Optimis** | 60 | RM30 | **RM1,800** | RM360 |
-| **Sederhana** | 80 | RM50 | **RM4,000** | RM800 |
-| **Konservatif** | 100 | RM80 | **RM8,000** | RM1,600 |
+Berdasarkan **75 lead borang**:
 
-Tambahan **buffer 30%** untuk ujian kreatif & pembaziran awal:
+| Senario | CPL | Belanja Iklan | + Buffer 30% | **Jumlah** | Kos / Jualan |
+|---|---|---|---|---|---|
+| **Optimis** | RM30 | RM2,250 | RM675 | **RM2,925** | RM585 |
+| **Sederhana** | RM45 | RM3,375 | RM1,013 | **RM4,388** | RM878 |
+| **Realistik** | RM60 | RM4,500 | RM1,350 | **RM5,850** | RM1,170 |
+| **Konservatif** | RM80 | RM6,000 | RM1,800 | **RM7,800** | RM1,560 |
 
-| Senario | Belanja Iklan | + Buffer 30% | **Jumlah** |
+### ✅ Cadangan untuk perancangan: **RM5,000 – RM8,000**
+
+Kos iklan untuk **setiap rumah terjual: RM900 – RM1,600**.
+Hanya **0.4% – 0.6%** daripada nilai projek RM250,000+. Sangat berbaloi.
+
+---
+
+## 5. JADUAL HARIAN & TEMPOH
+
+75 lead perlu diagihkan sepanjang tempoh kempen:
+
+| Belanja/hari | Tempoh | Jumlah | Lead dijangka (CPL RM60) |
 |---|---|---|---|
-| Optimis | RM1,800 | RM540 | **RM2,340** |
-| Sederhana | RM4,000 | RM1,200 | **RM5,200** |
-| Konservatif | RM8,000 | RM2,400 | **RM10,400** |
+| RM100 | 60 hari | RM6,000 | 100 |
+| RM125 | 50 hari | RM6,250 | 104 |
+| RM150 | 40 hari | RM6,000 | 100 |
 
-### ✅ Cadangan untuk perancangan: **RM6,000 – RM10,000**
-
-Itu bererti **RM1,200 – RM2,000 kos iklan untuk setiap rumah terjual**.
-Bandingkan dengan nilai projek RM250,000+ — ini hanya **0.5% – 0.8%** daripada nilai jualan. Sangat berbaloi.
+> **Minimum Meta:** RM50/hari. Bawah itu algoritma sukar belajar.
+> **Disyorkan:** **RM120 – RM150/hari** supaya keluar dari fasa pembelajaran lebih cepat.
+>
+> Anda akan dapat **lebih** daripada 75 lead pada bajet ini — lebihan itu jadi buffer
+> untuk lead tidak berkualiti.
 
 ---
 
-## 5. PELAN BAJET BERFASA (Disyorkan)
+## 6. PELAN BERFASA
 
-Jangan belanja semua sekali gus. Ikut fasa:
-
-### Fasa 1 — Ujian (Minggu 1–2) · RM1,500 – RM2,000
+### Fasa 1 — Ujian (Hari 1–14) · RM1,800 – RM2,100
+- Belanja: **RM130/hari**
 - 3–5 kreatif berbeza (gambar projek, video testimoni, sebelum/selepas)
-- 2–3 audiens (pemilik tanah Perak, umur 30–55)
-- **Matlamat:** cari CPL terbaik, bukannya jualan
+- 2–3 audiens
+- **Matlamat:** cari CPL terbaik — **bukan** jualan lagi
 
-### Fasa 2 — Skala (Minggu 3–10) · RM5,000 – RM6,000
-- Hentikan kreatif lemah, gandakan belanja pada yang menang
-- Sasaran: 60–100 lead
-- **Matlamat:** 12–15 temujanji → 4–5 jualan
+### Fasa 2 — Skala (Hari 15–50) · RM4,500 – RM5,000
+- Belanja: **RM130 – RM150/hari**
+- Hentikan kreatif lemah, gandakan pada yang menang
+- **Matlamat:** 60–75 lead → 12–15 temujanji
 
-### Fasa 3 — Retargeting (Minggu 4–12) · RM1,000 – RM1,500
-- Sasaran: mereka yang lawat laman tapi tak isi borang
-- Kos lebih murah, kadar tukar lebih tinggi
+### Fasa 3 — Retargeting (Hari 20–60) · RM1,000 – RM1,500
+- Sasaran: pelawat laman yang tak isi borang
+- Kos 50% lebih murah, kadar tukar lebih tinggi
 
-### Jumlah: **RM7,500 – RM9,500**
+### **Jumlah: RM7,300 – RM8,600**
 
 ---
 
-## 6. AGIHAN MENGIKUT SALURAN
+## 7. AGIHAN MENGIKUT SALURAN
 
 | Saluran | Peratus | Jumlah | Sebab |
 |---|---|---|---|
-| **Meta (FB/IG) — utama** | 65% | RM5,200 | Murah, jangkauan luas, sesuai untuk lead |
-| **Google Search** | 20% | RM1,600 | Niat tinggi — orang sudah cari "kontraktor bina rumah" |
-| **Retargeting** | 15% | RM1,200 | Murah, tukar pelawat jadi lead |
-| **Jumlah** | 100% | **RM8,000** | |
+| **Meta (FB/IG)** | 65% | RM4,900 | Murah, jangkauan luas, sesuai untuk lead |
+| **Google Search** | 20% | RM1,500 | Niat tinggi — orang sudah cari kontraktor |
+| **Retargeting** | 15% | RM1,100 | Tukar pelawat jadi lead |
+| **Jumlah** | 100% | **RM7,500** | |
 
 ---
 
-## 7. JADUAL HARIAN
+## 8. KPI MINGGUAN
 
-| Fasa | Belanja/hari | Tempoh |
+Semak setiap minggu dalam **GA4** + **Meta Ads Manager**:
+
+| Metrik | Sasaran | Jika gagal |
 |---|---|---|
-| Ujian | RM100 – RM150 | 14 hari |
-| Skala | RM150 – RM250 | 60 hari |
-| Retargeting | RM30 – RM50 | 60 hari |
+| CPL | < RM70 | Tukar kreatif / audiens |
+| **Lead → temujanji** | **> 20%** | Perbaiki skrip WhatsApp, susulan lebih pantas |
+| **Temujanji → jualan** | **> 33%** | Latih semula pasukan jualan |
+| Lawatan laman → lead | > 6% | Uji tawaran / CTA |
+| CTR iklan | > 1.5% | Tukar gambar / video |
 
-> **Minimum Meta:** RM50/hari. Bawah itu, algoritma sukar belajar.
-> **Ideal:** RM100–200/hari supaya keluar dari fasa pembelajaran lebih cepat.
-
----
-
-## 8. KPI YANG PERLU DIPANTAU
-
-Setiap minggu, semak dalam GA4 + Meta Ads Manager:
-
-| Metrik | Sasaran | Tindakan jika gagal |
-|---|---|---|
-| CPL (kos per lead) | < RM70 | Tukar kreatif/audiens |
-| Lead → temujanji | > 25% | Perbaiki skrip susulan WhatsApp |
-| Temujanji → jualan | > 30% | Latih semula pasukan jualan |
-| Kadar lawatan → lead | > 6% | Uji tawaran / CTA di laman |
-| CTR iklan | > 1.5% | Tukar gambar/video |
-
-**Nota:** Laman sudah dipasang event `Lead`, `Contact`, `InitiateCheckout` — anda boleh
-lihat di mana orang berhenti.
+Laman sudah dipasang event `Lead`, `Contact`, `InitiateCheckout` — anda boleh lihat
+di mana orang berhenti.
 
 ---
 
-## 9. CARA TURUNKAN BAJET
+## 9. NAIKKAN KUALITI LEAD (KURANGKAN PEMBAZIRAN)
 
-1. **Pasang Meta Pixel** — optimasi boleh turunkan CPL **30–50%**
-2. **Guna video testimoni** — kos per lead lebih murah berbanding gambar statik
-3. **Kreatif UGC** (pelanggan bercakap) — lebih dipercayai, CTR tinggi
-4. **WhatsApp sebagai CTA utama** — kadar tukar lebih tinggi dari borang sahaja
-5. **Retargeting** — orang yang sudah kenal anda, kos 50% lebih murah
-6. **Rujukan pelanggan** — percuma! Tawar diskaun untuk setiap rujukan yang jadi
+Kerana hanya **1 daripada 5 lead** jadi temujanji, kualiti lead amat penting:
+
+| Cara | Kesan |
+|---|---|
+| **Soal kelayakan di borang** — tambah soalan "saiz tanah" atau "bajet" | Tapis lead tak serius |
+| **WhatsApp auto-reply segera** | Lead sejuk jika lambat balas (sasaran < 5 minit) |
+| **Panggil, bukan hanya WhatsApp** | Kadar temujanji naik 20–30% |
+| **Skrip kelayakan** — tanya status tanah & bajet | Elak temujanji sia-sia |
+| **Retargeting** | Lead yang sudah kenal jenama lebih serius |
+| **Video testimoni** di iklan | Tarik lead lebih serius |
+
+> Kalau kadar **lead → temujanji** naik dari 20% ke 30%, bajet untuk 5 jualan
+> **turun 33%** — dari 75 lead ke 50 lead. Ini paling berbaloi untuk diperbaiki.
 
 ---
 
@@ -167,9 +167,9 @@ lihat di mana orang berhenti.
 |---|---|
 | **Masa** | 5 jualan mungkin ambil **2–6 bulan**, bukan 1 bulan |
 | **Kitaran jualan** | Pelanggan fikir berbulan sebelum mula bina |
-| **Lead sampah** | 30–50% lead mungkin tidak serius — normal |
-| **Musim** | Ramadan/Hari Raya & musim hujan biasanya lebih perlahan |
-| **Bukan semua boleh dikawal** | Kualiti lead bergantung pada kreatif & tawaran |
+| **Lead tidak berkualiti** | 80% lead tak jadi temujanji — sudah dikira |
+| **Musim** | Ramadan/Hari Raya & musim hujan lebih perlahan |
+| **Meta Pixel belum dipasang** | Pasang dahulu — boleh turunkan CPL 30–50% |
 | **SEO bukan pengganti iklan** | SEO ambil 3–6 bulan; iklan beri lead segera |
 
 ---
@@ -179,16 +179,18 @@ lihat di mana orang berhenti.
 | Perkara | Nilai |
 |---|---|
 | Sasaran | 5 rumah dibina |
-| Closing ratio | 3:1 (3 temujanji : 1 jualan) |
-| Temujanji diperlukan | 15 |
-| Lead diperlukan | 60–100 |
-| **Bajet iklan disyorkan** | **RM6,000 – RM10,000** |
-| Kos per jualan | RM1,200 – RM2,000 |
-| Peratus nilai jualan | 0.5% – 0.8% |
+| Lead borang → temujanji | 20% (5:1) |
+| Temujanji → jualan | 33% (3:1) |
+| **Lead borang diperlukan** | **75** |
+| **Temujanji diperlukan** | **15** |
+| CPL andaian | RM45 – RM80 |
+| **Bajet iklan disyorkan** | **RM5,000 – RM8,000** |
+| Kos per jualan | RM900 – RM1,600 |
+| Peratus nilai jualan | 0.4% – 0.6% |
 
 ### Cadangan mula
-**Mula dengan RM3,000 untuk 30 hari pertama.**
-Uji, kumpul data, kemudian tambah mengikut CPL sebenar anda.
+**Mula dengan RM3,000 untuk 30 hari pertama** (RM100/hari).
+Kumpul data CPL sebenar, kemudian tambah mengikut prestasi.
 
-> Angka sebenar akan menjadi lebih tepat selepas **2 minggu pertama** iklan berjalan —
-> gunakan CPL sebenar anda untuk kira semula, bukan andaian dokumen ini.
+> Angka sebenar jadi tepat selepas **2 minggu pertama** iklan berjalan.
+> Guna CPL sebenar anda untuk kira semula — bukan andaian dokumen ini.
