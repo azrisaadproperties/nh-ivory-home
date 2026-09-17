@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <url>
+    <loc>https://azrisaadproperties.github.io/nh-ivory-home/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <image:image>
+      <image:loc>https://azrisaadproperties.github.io/nh-ivory-home/images/projek-5035.webp</image:loc>
+      <image:title>Banglo siap dibina di Tanjung Tualang, Perak</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://azrisaadproperties.github.io/nh-ivory-home/images/projek-5033.webp</image:loc>
+      <image:title>Projek rumah di Desa Seri Iskandar</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://azrisaadproperties.github.io/nh-ivory-home/images/projek-5036.webp</image:loc>
+      <image:title>Projek rumah di Kuala Kangsar</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://azrisaadproperties.github.io/nh-ivory-home/images/projek-5040.webp</image:loc>
+      <image:title>Projek rumah di Teluk Intan</image:title>
+    </image:image>
+
+    <video:video>
+      <video:thumbnail_loc>https://azrisaadproperties.github.io/nh-ivory-home/images/video-3b99AdeMBm0.jpg</video:thumbnail_loc>
+      <video:title>Banglo Purewhite - Teluk Intan, Perak</video:title>
+      <video:description>Video serahan kunci Banglo Purewhite di Teluk Intan, Perak oleh NH Ivory Home Sdn. Bhd.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3b99AdeMBm0</video:player_loc>
+      <video:publication_date>2025-01-01</video:publication_date>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://azrisaadproperties.github.io/nh-ivory-home/images/video-LQ4S8xInyRo.jpg</video:thumbnail_loc>
+      <video:title>Banglo Stellar - Beruas, Perak</video:title>
+      <video:description>Video serahan kunci Banglo Stellar di Beruas, Perak oleh NH Ivory Home Sdn. Bhd.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/LQ4S8xInyRo</video:player_loc>
+      <video:publication_date>2025-01-01</video:publication_date>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://azrisaadproperties.github.io/nh-ivory-home/images/video-dQCfAOQyIXU.jpg</video:thumbnail_loc>
+      <video:title>Banglo Amaya - Chemor, Perak</video:title>
+      <video:description>Video serahan kunci Banglo Amaya di Chemor, Perak oleh NH Ivory Home Sdn. Bhd.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/dQCfAOQyIXU</video:player_loc>
+      <video:publication_date>2025-01-01</video:publication_date>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://azrisaadproperties.github.io/nh-ivory-home/images/video-hFpAzdWM1x8.jpg</video:thumbnail_loc>
+      <video:title>Banglo Audela - Batu Gajah, Perak</video:title>
+      <video:description>Video serahan kunci Banglo Audela di Batu Gajah, Perak oleh NH Ivory Home Sdn. Bhd.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/hFpAzdWM1x8</video:player_loc>
+      <video:publication_date>2025-01-01</video:publication_date>
+    </video:video>
+  </url>
+
+</urlset>

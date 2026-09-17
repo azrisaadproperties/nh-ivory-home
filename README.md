@@ -173,6 +173,70 @@ python3 -m http.server 8080
 
 Kemudian buka `http://localhost:8080`.
 
+## SEO — Apa Yang Sudah Dipasang
+
+| Item | Status |
+|---|---|
+| Title & meta description dioptimum | ✅ |
+| Canonical URL | ✅ |
+| `robots.txt` (thankyou.html disekat) | ✅ |
+| `sitemap.xml` (termasuk imej & video) | ✅ |
+| Structured data `GeneralContractor` (NAP, geo, areaServed, SSM/CIDB, rating) | ✅ |
+| Structured data `FAQPage` (7 soalan) | ✅ |
+| Structured data `VideoObject` (4 video) | ✅ |
+| Open Graph + Twitter Card + og:image mutlak | ✅ |
+| Meta geo (MY-08, koordinat) | ✅ |
+| Alt text pada semua imej | ✅ |
+| Preload hero + `fetchpriority=high` | ✅ |
+| Responsive mobile-first + HTTPS | ✅ |
+
+## SEO — Tugasan Manual (PALING PENTING)
+
+### 1. Google Search Console
+1. Buka https://search.google.com/search-console
+2. Tambah property jenis **URL prefix**: `https://azrisaadproperties.github.io/nh-ivory-home/`
+3. Sahkan pemilikan (paling mudah: **HTML tag** — tampal tag dalam `<head>` `index.html`)
+4. **Sitemaps** → hantar `sitemap.xml`
+5. **URL Inspection** → masukkan URL laman → **Request Indexing**
+
+### 2. Google Business Profile (paling berkesan untuk "kontraktor bina rumah Perak")
+- Pastikan profil di https://business.google.com lengkap 100%
+- Kategori: **General Contractor** / **Home Builder**
+- Isi kawasan perkhidmatan: Perak, Kedah, Pulau Pinang
+- Muat naik 20+ gambar projek & video
+- **Kumpul review setiap bulan** — ini penyumbang ranking #1 untuk carian tempatan
+- Balas setiap review (Google suka ini)
+- Buat post mingguan (projek siap, tip bina rumah)
+
+### 3. Custom Domain (wajib untuk SEO serius)
+Sub-folder `github.io` lemah untuk SEO. Beli domain dan tukar `canonical`, `og:url`,
+`robots.txt`, `sitemap.xml`, dan semua URL dalam JSON-LD.
+
+### 4. Kandungan (ini yang akan rank)
+Satu landing page sahaja **tidak akan rank** untuk kata kunci komersial. Perlu halaman sokongan:
+
+- `/bina-rumah-ipoh/`
+- `/bina-rumah-taiping/`
+- `/bina-rumah-kuala-kangsar/`
+- `/bina-rumah-seri-iskandar/`
+- `/bina-rumah-manjung/`
+- `/bina-rumah-kedah/`
+- `/bina-rumah-penang/`
+- Blog: "Berapa Kos Bina Rumah Di Perak 2026?", "Panduan Loan Bina Rumah", "Cara Mohon LPPSA", "Pelan Rumah Banglo 3 Bilik"
+
+Setiap halaman: 800–1500 patah perkataan, unik, + CTA + borang.
+
+### 5. Backlink & sitasi tempatan
+- Daftar di direktori kontraktor Malaysia (CIDB, MOF, Yellow Pages MY, Foursquare)
+- Konsistenkan NAP (Nama, Alamat, Telefon) di semua tempat
+- Artikel/guest post di portal hartanah
+- Pastikan pautan dari laman rasmi `nhivoryhome.com.my` ke laman ini
+
+### Realiti SEO
+- SEO ambil masa **3–6 bulan** untuk nampak hasil
+- Untuk lead **segera**, kekalkan Meta/Google Ads
+- SEO + Ads = strategi terbaik (SEO turunkan kos lead jangka panjang)
+
 ## Deploy Ke GitHub Pages
 
 Laman ini sudah disediakan untuk GitHub Pages:

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /thankyou.html
+
+# AI crawlers — benarkan (untuk visibiliti)
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://azrisaadproperties.github.io/nh-ivory-home/sitemap.xml
