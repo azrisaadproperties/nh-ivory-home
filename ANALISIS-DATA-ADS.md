@@ -1,186 +1,186 @@
 # Analisis Data Meta Ads — NH Ivory Home
 
-> Analisis berdasarkan data sebenar 8 kempen, **RM2,617.86 dibelanjakan, 230 hasil**.
+> **Kemas kini terkini.** Data: **RM3,326.44 dibelanjakan · 321 perbualan · 11 kempen**
+> Tempoh: 18 Ogos 2023 – 18 September 2026
 
 ---
 
-## 1. DATA ANDA (Ringkasan)
+## 1. DATA TERKINI
 
-| Kempen | Hasil | Kos/Hasil | Belanja | Verdict |
-|---|---|---|---|---|
-| CIDB Renovation 6/9/26 | 3 | RM9.65 | RM28.96 | Baru — sedikit data |
-| CIDB Renovation 13/8/26 | 5 | **RM24.47** | RM122.37 | ⛔ **PALING MAHAL** |
-| CIDB Renovation 9/2/26 | 106 | RM12.28 | RM1,302.19 | ✅ Skala (data terbanyak) |
-| Agriculture Lands — Changkat Jering | 34 | **RM7.29** | RM247.71 | ✅ Bagus |
-| Agriculture Lands — Semenyih LATEST | 21 | RM12.01 | RM252.23 | 🟡 Sederhana |
-| **TANAH CHANGKAT JERING** | 5 | **RM3.27** | RM16.37 | ⭐ **TERBAIK** |
-| Agriculture Lands — Semenyih Ads | 34 | RM11.41 | RM387.77 | 🟡 Sederhana |
-| Rumah Usang | 22 | RM11.83 | RM260.26 | 🟡 Sederhana |
-| **JUMLAH** | **230** | **RM11.38** | **RM2,617.86** | |
+| Kempen | Status | Hasil | Kos/Hasil | Belanja | Impresi | CTR | Verdict |
+|---|---|---|---|---|---|---|---|
+| **Property & Refinance 15/9/26 - 01** | 🟢 **AKTIF** | **47** | **RM6.06** | RM284.65 | 11,326 | 0.73% | ⭐ **TERBAIK (volume)** |
+| Property & Refinance 17/9/26 - 03 | Off | 4 | RM7.38 | RM29.50 | 514 | 1.17% | ✅ Bagus |
+| Property & Refinance 16/9/26 - 02 | Off | 3 | RM17.66 | RM52.99 | 1,277 | 0.55% | 🟡 Sederhana |
+| CIDB Renovation 6/9/26 | Off | 40 | RM9.26 | RM370.40 | 9,593 | 1.73% | ✅ Bagus |
+| CIDB Renovation 13/8/26 | Off | 5 | **RM24.47** | RM122.37 | 3,612 | 1.02% | ⛔ **TERBURUK** |
+| CIDB Renovation 9/2/26 | Off | 106 | RM12.28 | RM1,302.19 | 35,842 | 1.14% | 🟡 Banyak data |
+| Agriculture Lands — Changkat Jering | Off | 34 | **RM7.29** | RM247.71 | 14,983 | 2.85% | ✅ Bagus |
+| Agriculture Lands — Semenyih LATEST | Off | 21 | RM12.01 | RM252.23 | 9,215 | 1.16% | 🟡 Sederhana |
+| **TANAH CHANGKAT JERING** | Off | 5 | **RM3.27** | RM16.37 | 608 | 2.47% | ⭐ **TERMURAH** |
+| Agriculture Lands — Semenyih Ads | Off | 34 | RM11.41 | RM387.77 | 18,069 | 1.44% | 🟡 Sederhana |
+| Rumah Usang | Off | 22 | RM11.83 | RM260.26 | 14,810 | 0.82% | 🟡 Sederhana |
+| **JUMLAH** | | **321** | **RM10.36** | **RM3,326.44** | **119,849** | **1.37%** | |
 
-### Objektif semasa
-Semua kempen guna: **Engagement → Messaging conversation**
-Maksudnya: kos untuk orang **buka chat** WhatsApp/Messenger — bukan lead berkualiti.
-
----
-
-## 2. BERITA BAIK
-
-**RM11.38 untuk satu perbualan WhatsApp** — ini **bagus** untuk pasaran Malaysia.
-
-Bandingkan dengan andaian awal saya (CPL RM25–70):
-- Kalau **40%** perbualan jadi prospek serius → CPL sebenar ≈ **RM28**
-- Kalau **25%** → CPL sebenar ≈ **RM46**
-
-> Anda sudah lebih baik daripada andaian saya. Teruskan.
-
----
-
-## 3. MASALAH YANG PERLU DIBETULKAN
-
-### 3.1 "Perbualan" ≠ "Lead"
-
-| Metrik | Apa sebenarnya |
+### Metrik akaun
+| Metrik | Nilai |
 |---|---|
-| Messaging conversation | Orang **buka chat** dan hantar 1 mesej |
-| Lead | Orang yang **layak** dan **berminat** |
-
-Banyak perbualan hanya: "berapa harga?" lepas itu senyap. Itu **bukan lead**.
-
-### 3.2 Objektif kempen salah untuk lead
-
-Semua kempen guna **Engagement**, yang optimasi untuk **bilangan chat**, bukan
-**kualiti chat**.
-
-**Betulkan:**
-| Sekarang | Tukar kepada |
-|---|---|
-| Objective: Engagement | **Objective: Leads** |
-| Conversion: Messaging conversation | **Conversion location: Messaging apps (WhatsApp)** |
-| — | **Conversion event: Lead** (selepas Meta Pixel dipasang) |
-
-> Dengan **Objective: Leads → Messaging**, Meta akan cari orang yang bukan sekadar
-> chat, tetapi yang **berkemungkinan besar jadi pelanggan**.
-
-### 3.3 Kempen mahal perlu dimatikan
-
-**CIDB Renovation 13/8/26** — RM24.47/perbualan, 2x lebih mahal dari purata.
-Matikan, atau uji kreatif baharu.
+| CPM | RM27.76 |
+| CTR | 1.37% |
+| Jangkauan (Reach) | 53,515 |
+| Kos purata perbualan | **RM10.36** |
 
 ---
 
-## 4. 💡 INSIGHT TERBESAR
+## 2. PERUBAHAN SEJAK DATA TERAKHIR
 
-Lihat nama kempen yang **paling murah**:
+| Metrik | Sebelum | **Sekarang** | Trend |
+|---|---|---|---|
+| Jumlah belanja | RM2,617.86 | **RM3,326.44** | ↑ |
+| Perbualan | 230 | **321** | ↑ |
+| **Kos perbualan** | RM11.38 | **RM10.36** | ✅ **Bertambah baik** |
+
+> Akaun anda **semakin cekap**. Kos perbualan turun 9%.
+
+---
+
+## 3. 🏆 PENEMUAN BAHARU: PROPERTY & REFINANCE
+
+Tiga kempen baharu telah ditambah, dan **yang terbaik ialah:**
 
 ```
-TANAH CHANGKAT JERING          → RM3.27  ⭐
-Agriculture Lands Changkat Jering → RM7.29
-Agriculture Lands Semenyih      → RM11.41
+Property & Refinance 15/9/26 - 01
+→ 47 perbualan · RM6.06 setiap satu · MASIH AKTIF
 ```
 
-**Kempen berkaitan TANAH menarik PEMILIK TANAH pada kos rendah.**
+**Kenapa ini penting:**
+- Ini **bidang kepakaran anda** (property & refinance)
+- Kos RM6.06 adalah **antara termurah** dalam akaun
+- Ia **masih aktif** — boleh diskala terus
+- Meta bagi badge **"1 recommendation"** (kemungkinan cadangan naikkan bajet)
+
+**Kempen ini berpotensi jadi teras anda.**
+
+---
+
+## 4. INSIGHT UTAMA
+
+### 4.1 Audiens "Property & Tanah" = audiens "Bina Rumah"
+
+Lihat 4 kempen termurah anda:
+
+| Kempen | Kos/Perbualan | Audiens |
+|---|---|---|
+| TANAH CHANGKAT JERING | RM3.27 | Pemilik tanah |
+| **Property & Refinance 15/9** | **RM6.06** | Pemilik hartanah |
+| Agriculture Changkat Jering | RM7.29 | Pemilik tanah |
+| Property & Refinance 17/9 | RM7.38 | Pemilik hartanah |
+
+**Semuanya pemilik tanah / pemilik hartanah.**
 
 Dan siapa audiens untuk **bina rumah atas tanah sendiri**?
 
-> **PEMILIK TANAH.**
+> **PEMILIK TANAH & PEMILIK HARTANAH.**
 
-Anda sudah pun menarik audiens yang tepat pada **RM3–12 perbualan**.
-Cuma tawaran anda sekarang ialah jual/beli tanah — bukan bina rumah.
+Anda sudah menarik mereka pada **RM3–7**. Cuma tawaran sekarang bukan "bina rumah".
 
-### Tindakan: PIVOT
+### 4.2 Peluang: Bina Rumah sebagai tawaran tambahan
 
-Uji kempen **sama audiens & kreatif**, tetapi tawaran **bina rumah**:
+Daripada buang audiens yang murah, **tambah tawaran**:
 
 ```
-Audiens : sama (pemilik tanah, lokasi sama)
-Kreatif : sama (gambar tanah / luar bandar)
+Audiens : sama (pemilik tanah / hartanah)
+Kreatif : sama
 TAWARAN : "Ada tanah? Kami bina rumah atas tanah anda."
+          "Punya hartanah? Keluarkan ekuiti untuk bina rumah kedua."
 ```
 
-> **Ini peluang paling besar dalam data anda.** Jangan mula dari kosong —
-> guna apa yang sudah terbukti murah.
+> **Jangan mula dari kosong.** Guna audiens yang sudah terbukti murah.
+
+### 4.3 Kempen yang perlu ditutup
+
+**CIDB Renovation 13/8/26** — RM24.47, 2.4x lebih mahal dari purata.
+Matikan. Guna belanjanya pada Property & Refinance.
 
 ---
 
-## 5. KIRAAN SEMULA BAJET (DATA SEBENAR)
+## 5. KIRAAN BAJET (DATA TERKINI)
 
-Berdasarkan RM11.38/perbualan:
+Berdasarkan **RM10.36 per perbualan**:
 
-| Andaian | Kualiti perbualan | CPL sebenar | 75 lead | + Buffer 30% |
-|---|---|---|---|---|
-| Optimis | 50% jadi prospek | RM23 | RM1,725 | **RM2,243** |
-| **Realistik** | **35%** | **RM33** | **RM2,475** | **RM3,218** |
-| Konservatif | 25% | RM46 | RM3,450 | **RM4,485** |
+| Andaian kualiti | CPL sebenar | 75 lead | + Buffer 30% |
+|---|---|---|---|
+| Optimis (50% jadi prospek) | RM20.72 | RM1,554 | **RM2,020** |
+| **Realistik (35%)** | **RM29.60** | **RM2,220** | **RM2,886** |
+| Konservatif (25%) | RM41.44 | RM3,108 | **RM4,040** |
 
-### ✅ Bajet disyorkan (disemak semula): **RM2,500 – RM4,500**
-
-Ini **lebih rendah** daripada anggaran awal RM5,000–8,000 kerana data anda
-menunjukkan kos perbualan lebih murah daripada andaian.
+### ✅ Bajet disemak: **RM2,000 – RM4,000**
 
 | Perkara | Nilai |
 |---|---|
-| Komisen (5 × RM5,000) | RM25,000 |
-| Kos iklan | RM2,500 – RM4,500 |
-| **% komisen untuk iklan** | **10% – 18%** |
-| **Komisen bersih** | **RM20,500 – RM22,500** |
+| Komisen 5 jualan (RM250k) | RM25,000 |
+| Kos iklan | RM2,000 – RM4,000 |
+| **% komisen untuk iklan** | **8% – 16%** |
+| **Komisen bersih** | **RM21,000 – RM23,000** |
 
-> Sebelum ini saya kira 20–32% komisen. Dengan data sebenar, ia **10–18% sahaja**.
-> **Lebih untung daripada yang disangka.**
+> **Lebih untung daripada anggaran asal.** Data sebenar anda lebih baik
+> daripada andaian saya (RM5,000–8,000).
 
 ---
 
 ## 6. PELAN TINDAKAN
 
-### Segera (hari ini)
-- [ ] **Matikan** CIDB Renovation 13/8/26 (RM24.47 — paling mahal)
-- [ ] **Naikkan bajet** TANAH CHANGKAT JERING (RM3.27 — paling murah, tapi hanya RM16 belanja)
-- [ ] Tukar objective semua kempen baharu: **Leads → Messaging (WhatsApp)**
+### 🔴 Segera (hari ini)
+- [ ] **Skala** Property & Refinance 15/9/26 (RM6.06) — naikkan bajet berperingkat
+- [ ] **Matikan** CIDB Renovation 13/8/26 (RM24.47)
+- [ ] **Uji** TANAH CHANGKAT JERING dengan bajet lebih besar (RM3.27 — hanya RM16 dibelanja!)
 
-### Minggu ini
-- [ ] Uji kempen **"Bina Rumah"** guna audiens & kreatif Tanah Changkat Jering
-- [ ] Pasang **Meta Pixel** (esok) — untuk optimasi `Lead` di laman web
-- [ ] Buat Custom Audience dari senarai pelanggan refinance anda
-- [ ] Buat Lookalike 1% dari senarai itu
+### 🟡 Minggu ini
+- [ ] Tambah kempen **"Bina Rumah"** guna audiens Property & Tanah yang murah
+- [ ] Pasang **Meta Pixel** (esok) — optimasi event `Lead`
+- [ ] Tukar objective kempen baharu: **Leads → Messaging (WhatsApp)**
+- [ ] Upload senarai pelanggan refinance → Custom Audience + Lookalike 1%
 
-### Bulan ini
-- [ ] Bandingkan: kempen "jual tanah" vs "bina rumah" pada audiens sama
-- [ ] Skala yang menang ke RM80–150/hari
+### 🟢 Bulan ini
+- [ ] A/B: tawaran "jual/beli tanah" vs "bina rumah" pada audiens sama
+- [ ] Skala yang menang ke RM100–150/hari
 - [ ] Mula retargeting (pelawat laman 30 hari)
 
 ---
 
-## 7. STRUKTUR KEMPEN BINA RUMAH (GUNA DATA ANDA)
+## 7. STRUKTUR KEMPEN BINA RUMAH
 
 ```
 Kempen: [LEAD] Bina Rumah — Perak
-├── Ad Set 1: Lookalike 1% (senarai pelanggan anda)   ← paling panas
+├── Ad Set 1: Lookalike 1% (senarai pelanggan refinance)   ← paling panas
 ├── Ad Set 2: Interest Tanah/Hartanah + Perak
 ├── Ad Set 3: Broad Perak (30-60)
 └── Ad Set 4: Penjawat Awam (LPPSA)
 ```
 
-**Kreatif untuk diuji (ikut apa yang sudah terbukti):**
-| # | Kreatif | Sebab |
+**Kreatif untuk diuji:**
+| # | Kreatif | Asas |
 |---|---|---|
-| 1 | Video testimoni (Banglo Purewhite, Teluk Intan) | Paling dipercayai |
-| 2 | Gambar tanah kosong → rumah siap | Guna gaya kreatif "Tanah" yang murah |
-| 3 | "Kos bina rumah RM13X,000" | Jawab soalan harga |
-| 4 | "Ada tanah? Kami bina." | Terus kepada sasaran |
+| 1 | "Ada tanah? Kami bina." | Gaya kempen Tanah (RM3.27) |
+| 2 | "Keluarkan ekuiti rumah, bina rumah kedua" | Gaya Property & Refinance (RM6.06) |
+| 3 | Video testimoni Banglo Purewhite | Paling dipercayai |
+| 4 | "Kos bina rumah RM13X,000" | Jawab soalan harga |
 
 ---
 
-## 8. KPI BARU (BERASASKAN DATA ANDA)
+## 8. KPI (BERASASKAN DATA ANDA)
 
-| Metrik | Sasaran | Data anda sekarang |
+| Metrik | Sasaran | Data anda |
 |---|---|---|
-| Kos per perbualan | < RM15 | **RM11.38** ✅ |
-| Perbualan → prospek serius | > 30% | Perlu diukur |
-| Prospek → temujanji | > 60% | Perlu diukur |
-| Temujanji → jualan | > 33% | Perlu diukur |
+| Kos per perbualan | < RM12 | **RM10.36** ✅ |
+| CTR | > 1% | **1.37%** ✅ |
+| CPM | < RM35 | **RM27.76** ✅ |
+| Perbualan → prospek serius | > 30% | ⚠️ Perlu diukur |
+| Prospek → temujanji | > 60% | ⚠️ Perlu diukur |
+| Temujanji → jualan | > 33% | ⚠️ Perlu diukur |
 
-> **Tugas anda sekarang:** ukur **kualiti** perbualan, bukan hanya bilangan.
-> Tanya setiap prospek: "Tunai, loan atau LPPSA?" — ini menapis dengan pantas.
+> **Tugas paling penting sekarang:** ukur **kualiti** perbualan, bukan hanya bilangan.
+> Soalan penapis pantas: **"Tunai, loan atau LPPSA?"**
 
 ---
 
@@ -188,17 +188,18 @@ Kempen: [LEAD] Bina Rumah — Perak
 
 | Perkara | Nilai |
 |---|---|
-| Data dianalisis | RM2,617.86 · 230 perbualan · 8 kempen |
-| Kos purata perbualan | **RM11.38** |
-| Kempen terbaik | TANAH CHANGKAT JERING — RM3.27 |
-| Kempen terburuk | CIDB Renovation 13/8 — RM24.47 |
-| Masalah utama | Objective Engagement, bukan Lead |
-| **Insight terbesar** | Kempen tanah tarik **pemilik tanah** pada kos rendah |
-| CPL sebenar dijangka | **RM23 – RM46** |
-| **Bajet disemak** | **RM2,500 – RM4,500** (bukan RM5,000–8,000) |
-| % komisen untuk iklan | **10% – 18%** (lebih untung) |
+| Data terkini | RM3,326.44 · 321 perbualan · 11 kempen |
+| Kos purata perbualan | **RM10.36** (turun dari RM11.38) |
+| CPM / CTR | RM27.76 / 1.37% |
+| ⭐ Terbaik (volume) | **Property & Refinance 15/9 — RM6.06** |
+| ⭐ Termurah | TANAH CHANGKAT JERING — RM3.27 |
+| ⛔ Terburuk | CIDB Renovation 13/8 — RM24.47 |
+| CPL dijangka | **RM21 – RM41** |
+| **Bajet disemak** | **RM2,000 – RM4,000** |
+| % komisen untuk iklan | **8% – 16%** |
+| **Komisen bersih** | **RM21,000 – RM23,000** |
 
 ### Tiga tindakan paling penting
-1. **Pivot** — guna audiens "Tanah" yang murah, tawar "bina rumah"
-2. **Tukar objective** ke Leads → Messaging (WhatsApp)
-3. **Pasang Meta Pixel** untuk optimasi lead di laman web
+1. **Skala Property & Refinance** (RM6.06) — ini kekuatan anda
+2. **Pivot audiens murah** ke tawaran "bina rumah"
+3. **Pasang Meta Pixel** untuk optimasi lead sebenar
