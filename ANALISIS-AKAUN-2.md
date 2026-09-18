@@ -1,7 +1,25 @@
-# Analisis Akaun 2 — Azri Saad Properties
+# Analisis Akaun 2 — Azri Saad Properties (Personal)
 
+> **PENTING:** Akaun ini untuk **rumah subsales low cost** & **tanah murah** —
+> bukan perkhidmatan bina rumah. Perbandingan dengan akaun NH Ivory **bukan epal ke epal**.
+>
 > Data: **RM817.82 dibelanjakan · 142 perbualan · 5 iklan**
-> Tempoh: 18 Ogos 2023 – 18 September 2026
+
+---
+
+## 0. KONTEKS — DUA PRODUK BERBEZA
+
+| | Akaun NH Ivory | Akaun Azri Saad |
+|---|---|---|
+| **Produk** | Bina rumah (perkhidmatan) | Rumah subsales low cost & tanah murah |
+| **Nilai** | RM250,000+ | RM30,000 – RM150,000 |
+| **Pasaran** | Niche (pemilik tanah) | **Mass market** |
+| **Keputusan** | 3–6 bulan, teliti | Lebih cepat, emosi |
+| **Audiens** | Kecil, spesifik | Besar, luas |
+
+> **Kesimpulan:** CPM murah dalam akaun ini **sebahagiannya** kerana produknya
+> berbeza — pasaran lebih besar dan lebih murah untuk dijangkau.
+> **Jangan harap CPM RM15 untuk bina rumah.**
 
 ---
 
@@ -18,58 +36,105 @@
 
 ---
 
-## 2. 🏆 PENEMUAN BESAR: AKAUN INI 2x LEBIH CPM MURAH
+## 2. BENCHMARK YANG REALISTIK (JANGAN CAMPUR)
 
-| Metrik | Akaun NH Ivory | **Akaun Azri Saad** | Perbezaan |
-|---|---|---|---|
-| **CPM** | RM30.93 | **RM15.07** | **-51%** 🎉 |
-| Kos per hasil | RM10.36 | **RM5.76** | **-44%** |
-| CTR (link) | 0.81% | 0.92% | +14% |
-| CTR (semua) | — | **4.42%** | Sangat tinggi |
-| Impresi | 54,276 (hari ini) | 54,276 (keseluruhan) | — |
+Ini penting — **setiap produk ada kosnya sendiri**:
 
-> **Akaun ini mendapat CPM separuh harga** dengan kadar klik lebih tinggi.
-> Ini bukan kebetulan — ada sebabnya.
+| Metrik | Rumah low cost / tanah (akaun ini) | **Bina rumah (akaun NH Ivory)** |
+|---|---|---|
+| CPM | RM10 – RM20 | **RM25 – RM40** |
+| CTR (link) | 0.9 – 1.5% | 0.7 – 1.5% |
+| Kos per perbualan | RM4 – RM8 | **RM8 – RM15** |
+| Kitaran keputusan | 1–4 minggu | **3–6 bulan** |
 
-### Kenapa CPM lebih murah?
+> **Kenapa bina rumah lebih mahal?**
+> - Audiens lebih kecil (mesti **pemilik tanah**, bukan sesiapa)
+> - Nilai tinggi = keputusan teliti = lebih banyak pendedahan diperlukan
+> - Persaingan lebih tinggi (kontraktor, developer)
 
-**CTR (semua) 4.42%** adalah **sangat tinggi**. Ini bermakna iklan ini mendapat
-banyak **reaksi, komen, kongsi** — bukan sekadar klik.
-
-Meta **memberi ganjaran** kepada iklan yang membuat orang engage:
-```
-Engagement tinggi → Meta suka → CPM turun → lebih murah
-```
-
-**Perbezaan utama:**
-- Akaun NH Ivory: poster statik, engagement rendah
-- **Akaun Azri Saad: kreatif yang memancing engagement** (mungkin video atau hook kuat)
+**Sasaran CPM anda untuk bina rumah: RM25–35.** Itu **normal**, bukan masalah.
 
 ---
 
-## 3. IKLAN PEMENANG & KALAH
+## 3. PELAJARAN YANG BOLEH DIPINDAH (INI YANG PENTING)
+
+Walaupun produk berbeza, ada **4 pelajaran** yang boleh diguna untuk kempen bina rumah:
+
+### ✅ Pelajaran 1 — VIDEO MENANG
+```
+Video 1 → kos/hasil RM3.21 (TERBAIK dari 5 iklan)
+```
+Video mengalahkan poster statik. **Buat lebih banyak video untuk bina rumah.**
+
+Anda sudah ada `SKRIP-VIDEO-15-SAAT.md` dan `PROMPT-VIDEO-AI-30SAAT.md`.
+
+### ✅ Pelajaran 2 — KREATIF YANG DAPAT ENGAGEMENT = CPM MURAH
+```
+CTR (semua) 4.42% → Meta ganjar CPM murah (RM15)
+```
+Iklan yang dapat **reaksi, komen, kongsi** mendapat CPM lebih murah — kerana Meta
+suka kandungan yang buat orang engage.
+
+**Guna untuk bina rumah:** kreatif yang memancing komen ("Berapa bajet anda?",
+"Tanah anda di mana?") boleh turunkan CPM.
+
+### ✅ Pelajaran 3 — 3 PEMENANG SEMUA CPM RENDAH
+```
+(1) RM11.47  (3) RM10.82  (4) RM20.23
+```
+CPM rendah = penunjuk awal pemenang. Pantau CPM lebih awal daripada kos/hasil.
+
+### ✅ Pelajaran 4 — FREQUENCY 2.13 PERLU PANTAU
+Bila cecah 2.5–3, CTR akan jatuh. **Sedia kreatif baharu sebelum itu.**
+
+---
+
+## 4. 🎯 PELUANG TERBESAR: CROSS-SELL
+
+Ini penemuan paling bernilai:
+
+> **Pelanggan tanah murah anda = audiens SEMPURNA untuk bina rumah.**
+
+Orang yang beli tanah murah dari anda:
+- Sudah **ada tanah** ✓
+- Sudah **percaya anda** ✓
+- Sudah **ada niat membina** (sebab itu beli tanah) ✓
+- Anda sudah ada **nombor telefon mereka** ✓
+
+**Tindakan:**
+1. Upload senarai pembeli tanah anda → **Custom Audience**
+2. Buat **Lookalike 1%** dari senarai itu
+3. Tawarkan: *"Sudah ada tanah? Kami bina rumah anda."*
+4. Ini audiens **paling panas** — kos paling murah, kadar tukar paling tinggi
+
+| Audiens | Suhu | Kos dijangka |
+|---|---|---|
+| Pembeli tanah anda | 🔥 Panas | Paling murah |
+| Lookalike 1% pembeli tanah | 🟠 Hangat | Murah |
+| Interest Tanah/Hartanah | 🟡 Sederhana | Sederhana |
+| Broad Perak | 🔵 Sejuk | Lebih mahal |
+
+---
+
+## 5. IKLAN PEMENANG & KALAH
 
 ### ⭐ Pemenang
 | Iklan | Kos/hasil | Kenapa menang |
 |---|---|---|
-| **Video 1** | **RM3.21** | Video + CPM munasabah (RM17.16) |
+| **Video 1** | **RM3.21** | Video + CPM munasabah |
 | New Engagement ad (3) | RM3.92 | CPM terbaik (RM10.82) + 48 hasil |
 | New Engagement ad (1) | RM4.29 | CPM terbaik (RM11.47) |
-
-**Pola:** 3 pemenang teratas ada **CPM rendah (RM10–17)**.
 
 ### ⛔ Kalah
 | Iklan | Kos/hasil | Masalah |
 |---|---|---|
-| New Engagement ad (2) | **RM14.50** | CTR link 0.46% (separuh purata) + CTR semua 1.96% (rendah) |
+| New Engagement ad (2) | **RM14.50** | CTR semua 1.96% (purata 4.42%) |
 
-> **New Engagement ad (2)** — 8 hasil dari RM116. CTR semua hanya 1.96%
-> berbanding purata 4.42%. Kreatif ini **tidak menarik engagement**.
-> **Matikan atau tukar kreatif.**
+> **Matikan New Engagement ad (2).** 8 hasil dari RM116.
 
 ---
 
-## 4. FREQUENCY — PERHATIKAN
+## 6. FREQUENCY — PERHATIKAN
 
 | Iklan | Frequency |
 |---|---|
@@ -80,88 +145,61 @@ Engagement tinggi → Meta suka → CPM turun → lebih murah
 | Video 1 | 1.88 |
 | **Jumlah** | **2.13** |
 
-**Frequency 2.13** — masih OK, tetapi **menghampiri zon bahaya (2.5)**.
-
-> Bila frequency cecah **2.5–3**, CTR akan mula jatuh dan CPM naik.
-> Sedia kreatif baharu **sekarang** sebelum ia berlaku.
+**Frequency 2.13** — menghampiri zon bahaya (2.5). Sedia kreatif baharu.
 
 ---
 
-## 5. FUNNEL AKAUN INI
+## 7. FUNNEL AKAUN INI
 
 ```
 Impresi        54,276
    ↓ CTR link 0.92%
 Klik           502
-   ↓ 
-Perbualan      142  (28% dari klik)
+   ↓ 28% jadi perbualan
+Perbualan      142
    ↓ Kos/hasil RM5.76
 ```
 
-**Kadar klik → perbualan: 28%**
-Bandingkan akaun NH Ivory: **66%**
-
-> Akaun ini dapat **lebih banyak klik** tetapi **kadar tukar ke perbualan lebih rendah**.
-> Kemungkinan: iklan ini guna "Engagement" objective, jadi sebahagian klik
-> bukan niat untuk hantar mesej.
-
-**Peluang:** kalau kadar tukar naik dari 28% → 40%, perbualan jadi **200** (+41%)
-pada belanja sama.
+**Peluang:** kalau kadar klik→perbualan naik dari 28% → 40%,
+perbualan jadi **200** (+41%) pada belanja sama.
 
 ---
 
-## 6. PELAN TINDAKAN
+## 8. PELAN TINDAKAN
 
-### Segera
-- [ ] ⛔ **Matikan** New Engagement ad (2) — RM14.50, CTR rendah
-- [ ] ⭐ **Skala** Video 1 (RM3.21) dan New Engagement ad (3) (RM3.92)
-- [ ] 📊 **Bandingkan kreatif** akaun ini vs akaun NH Ivory — apa bezanya?
+### Untuk akaun ini (personal)
+- [ ] ⛔ **Matikan** New Engagement ad (2) — RM14.50
+- [ ] ⭐ **Skala** Video 1 (RM3.21) & ad (3) (RM3.92)
+- [ ] 🎬 Buat lebih banyak video
+- [ ] 📋 **Upload senarai pembeli tanah** → Custom Audience + Lookalike
 
-### Minggu ini
-- [ ] **Buat lebih banyak video** — Video 1 adalah pemenang terbaik
-- [ ] Semak **objective** kedua-dua akaun — kenapa akaun ini lebih murah?
-- [ ] Sedia 3-5 kreatif baharu (frequency akan cecah 2.5)
-
-### Soalan untuk disiasat
-| Soalan | Kenapa penting |
-|---|---|
-| Apa beza audiens akaun ini? | CPM 2x lebih murah |
-| Apa beza kreatif? | CTR semua 4.42% sangat tinggi |
-| Objective sama atau berbeza? | Engagement vs Messaging |
-| Placement sama? | Boleh jadi faktor CPM |
+### Untuk akaun NH Ivory (bina rumah)
+- [ ] 🎯 **Guna audiens pembeli tanah anda** — cross-sell bina rumah
+- [ ] 🎬 Uji **video** (bukan poster statik) — Video 1 terbukti menang
+- [ ] 💬 Uji kreatif yang **memancing komen** untuk turunkan CPM
+- [ ] 📊 Jangan banding CPM dengan akaun ini — **sasaran RM25–35**
 
 ---
 
-## 7. STANDARD BAHARU ANDA
-
-Sebelum ini saya kata CPM sasaran **< RM35**. Tapi akaun ini buktikan **RM15 boleh**.
-
-| Metrik | Sasaran Lama | **Sasaran Baharu** |
-|---|---|---|
-| CPM | < RM35 | **< RM20** |
-| CTR (link) | > 1.5% | > 1% |
-| Kos per perbualan | < RM15 | **< RM8** |
-| Frequency | < 2.5 | < 2.5 |
-
-> **Jangan terima CPM RM30** kalau akaun anda sendiri boleh dapat RM15.
-
----
-
-## 8. KESIMPULAN
+## 9. KESIMPULAN
 
 | Perkara | Nilai |
 |---|---|
+| Akaun | Personal — rumah subsales low cost & tanah murah |
 | Jumlah belanja | RM817.82 |
 | Perbualan | 142 |
-| **CPM** | **RM15.07** (separuh akaun lain) |
-| Kos per hasil | **RM5.76** |
-| CTR (semua) | 4.42% (sangat tinggi) |
+| CPM | RM15.07 |
+| Kos per hasil | RM5.76 |
 | Pemenang terbaik | **Video 1 — RM3.21** |
 | Terburuk | New Engagement ad (2) — RM14.50 |
 | Frequency | 2.13 (pantau) |
-| Kadar klik→perbualan | 28% (peluang naik) |
 
 ### 3 tindakan utama
 1. **Matikan** New Engagement ad (2)
 2. **Buat lebih banyak video** — Video 1 menang
-3. **Siasat kenapa akaun ini 2x lebih murah** — aplikasi ke akaun NH Ivory
+3. **Cross-sell**: guna senarai pembeli tanah anda untuk tawar bina rumah
+
+> **Nota penting:** Jangan harap CPM RM15 untuk bina rumah. Sasaran **RM25–35**
+> adalah normal untuk produk bernilai tinggi. Tetapi **pelajaran kreatif**
+> (video + engagement) boleh dipindah.
+
