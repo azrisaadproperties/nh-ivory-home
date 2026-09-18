@@ -234,7 +234,88 @@ Dengan angka ini saya boleh beritahu punca tepat dan tindakan.
 
 ---
 
-## 10. RINGKASAN
+## 11. KES SEBENAR — 17/9 vs 18/9 (Analisis Data Anda)
+
+> **Aduan:** "Poster winning semalam, CPM semakin tinggi. Spend RM43, baru 2 lead."
+
+### Data sebenar
+
+| Metrik | Semalam (17/9) | Hari ini (18/9) | Perubahan |
+|---|---|---|---|
+| Belanja | RM139.27 | RM52.52 | -62% (hari belum habis) |
+| Hasil | 23 | 2 | -91% |
+| Kos/hasil | RM6.06 | RM26.26 | **+334%** |
+| Impresi | 4,320 | 1,698 | -61% |
+| Reach | 3,311 | 1,392 | -58% |
+| **CPM** | **RM32.24** | **RM30.93** | **-4%** ✅ |
+| **CTR** | **0.81%** | **0.35%** | **-57%** ⛔ |
+| CPC | RM3.98 | RM8.75 | +120% |
+
+### 🔍 DIAGNOSIS: CPM BUKAN masalah — CTR yang jatuh
+
+**CPM turun 4%.** Andaian "CPM naik" adalah **tidak tepat**.
+
+Yang sebenarnya berlaku:
+```
+CPM stabil (RM32 → RM31)      → lelongan & audiens OK
+CTR jatuh 57% (0.81% → 0.35%) → orang berhenti klik
+CPC naik 120%                 → AKIBAT CTR jatuh
+Kos/hasil naik 334%           → AKIBAT CTR jatuh
+```
+
+> **Punca sebenar = CTR.** Bukan CPM, bukan lelongan, bukan audiens.
+> Bila CTR jatuh, CPC automatik naik (CPC = CPM ÷ CTR).
+
+### Analisis iklan (ad level)
+
+| Iklan | Kos/hasil semalam | Kos/hasil hari ini | CPM hari ini | CTR hari ini | Verdict |
+|---|---|---|---|---|---|
+| 5 minit semak value | RM7.38 | — (0 hasil) | **RM43.50** | — | ⚠️ CPM tinggi |
+| tahukah refinance 35tahun? | RM5.97 | RM21.75 | RM29.27 | 0.34% | ✅ CPM sihat, CTR jatuh |
+| Nak dapatkan cash? | RM4.73 | — (0 hasil) | **RM42.38** | 0.58% | ⚠️ CPM tinggi |
+
+### Punca CTR jatuh (3 kemungkinan)
+
+| # | Punca | Cara sahkan |
+|---|---|---|
+| 1 | **Ad fatigue** | Semak Frequency — kalau > 2.5 |
+| 2 | **Hari belum habis** | Belanja baru 38% dari semalam |
+| 3 | **Semalam luar biasa** | 23 hasil @ RM6.06 = hari cemerlang |
+
+> **Nota penting:** semalam (RM6.06/hasil) adalah **jauh lebih baik** daripada purata
+> sejarah anda (RM10.36). Hari ini mungkin hanya **kembali normal**.
+
+### Tindakan
+
+**Hari ini:**
+- [ ] **JANGAN sentuh apa-apa** — hari belum habis
+- [ ] Semak **Frequency** pada ketiga-tiga iklan
+- [ ] Catat CPM/CTR untuk banding esok
+
+**Esok:**
+- [ ] Bandingkan pada **waktu sama** (jangan banding hari penuh vs separuh hari)
+- [ ] Kalau Frequency > 3 → **tambah kreatif baharu** (jangan matikan lama)
+- [ ] Kalau CTR pulih → tiada masalah
+
+**Iklan CPM tinggi (RM43–57):**
+- "5 minit semak value" & "Nak dapatkan cash?" — CPM melebihi sasaran RM35
+- Uji hook baharu, atau matikan jika 0 hasil selepas RM40
+
+### Pengajaran
+
+| Andaian | Realiti |
+|---|---|
+| "CPM naik" | CPM **turun 4%** |
+| "Iklan rosak" | Iklan masih jalan, CTR yang lemah |
+| "Kena tukar audiens" | Audiens OK (CPM stabil) |
+| Tindakan betul | **Tunggu** + semak frequency + sedia kreatif baharu |
+
+> **CPC = CPM ÷ CTR.** Kalau CPM stabil tetapi CPC naik, pasti CTR yang jatuh.
+> Semak CTR dahulu — bukan CPM.
+
+---
+
+## 12. RINGKASAN
 
 | Perkara | Nilai |
 |---|---|
