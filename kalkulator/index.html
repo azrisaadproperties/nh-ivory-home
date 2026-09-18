@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Iklan Meta — NH Ivory Home</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#ED1C24">
+  <link rel="icon" href="../assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/seo.css">
+  <style>
+    .calc-wrap { max-width: 880px; margin: 0 auto; }
+    .calc-box {
+      background: #fff; border: 1px solid var(--line); border-radius: 16px;
+      padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow);
+    }
+    .calc-box h2 { font-size: 1.15rem; margin-bottom: .25rem; }
+    .calc-box > p { font-size: .88rem; color: var(--muted); margin-bottom: 1.25rem; }
+    .calc-inputs { display: grid; gap: .9rem; }
+    .calc-in label { display: block; font-size: .85rem; font-weight: 600; color: var(--ink); margin-bottom: .3rem; }
+    .calc-in input {
+      width: 100%; padding: .75rem .9rem; border: 1px solid var(--line);
+      border-radius: 10px; font-size: 1rem; font-family: inherit; color: var(--ink); background: #fff;
+    }
+    .calc-in input:focus { outline: none; border-color: var(--red); box-shadow: 0 0 0 3px rgba(200,16,46,.14); }
+    .calc-in small { display: block; font-size: .75rem; color: var(--muted); margin-top: .25rem; }
+    .calc-out {
+      display: grid; gap: .75rem; margin-top: 1.25rem;
+      padding-top: 1.25rem; border-top: 1px dashed var(--line);
+    }
+    .out-row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1rem; background: var(--bg-soft); border-radius: 10px; padding: .8rem 1rem;
+    }
+    .out-row span { font-size: .85rem; color: var(--ink-soft); }
+    .out-row strong { font-family: "Poppins", sans-serif; font-size: 1.25rem; color: var(--ink); }
+    .out-row.hero { background: var(--red); }
+    .out-row.hero span { color: #FFD9DF; }
+    .out-row.hero strong { color: #fff; font-size: 1.5rem; }
+    .out-row.good strong { color: #157347; }
+    .out-row.bad strong { color: var(--red); }
+    .calc-table { width: 100%; border-collapse: collapse; font-size: .88rem; margin-top: 1rem; }
+    .calc-table th, .calc-table td { border: 1px solid var(--line); padding: .55rem .6rem; text-align: right; }
+    .calc-table th { background: var(--red-soft); font-family: "Poppins", sans-serif; font-size: .78rem; text-align: right; }
+    .calc-table th:first-child, .calc-table td:first-child { text-align: left; }
+    .calc-table tbody tr:nth-child(even) { background: var(--bg-soft); }
+    .calc-table td.best { background: #E7F6EC; font-weight: 700; color: #157347; }
+    .calc-table td.worst { background: #FDECEF; font-weight: 700; color: var(--red-dark); }
+    .preset-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
+    .preset-row button {
+      border: 1px solid var(--line); background: #fff; border-radius: 999px;
+      padding: .4rem .85rem; font-size: .8rem; font-weight: 600; color: var(--ink); cursor: pointer;
+    }
+    .preset-row button:hover { border-color: var(--red); color: var(--red); }
+    @media (min-width: 640px) { .calc-inputs { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+
+  <header class="site-header scrolled">
+    <div class="container header-inner">
+      <a href="../index.html" class="brand">
+        <img src="../images/logo.png" alt="NH Ivory Home" class="brand-logo" width="192" height="32">
+      </a>
+      <a href="../index.html" class="btn btn-outline btn-sm" style="margin-left:auto">Kembali</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="../index.html">Utama</a> <span>/</span>
+          <span aria-current="page">Kalkulator</span>
+        </nav>
+        <h1>Kalkulator Iklan Meta</h1>
+        <p class="lead">Kira unjuran impresi, klik, perbualan dan bajet berdasarkan data sebenar anda.
+        Semua kiraan berlaku dalam pelayar anda — tiada data dihantar ke mana-mana.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container calc-wrap">
+
+        <!-- ============ 1. UNJURAN ============ -->
+        <div class="calc-box">
+          <h2>1. Unjuran Hasil</h2>
+          <p>Masukkan tetapan anda, lihat unjuran.</p>
+
+          <div class="preset-row">
+            <button type="button" data-preset="real">Data Saya (RM10.36)</button>
+            <button type="button" data-preset="win">Hari Menang (RM6.06)</button>
+            <button type="button" data-preset="lemah">Hari Lemah (RM26.26)</button>
+          </div>
+
+          <div class="calc-inputs">
+            <div class="calc-in">
+              <label for="iBudget">Belanja (RM)</label>
+              <input type="number" id="iBudget" value="100" min="0" step="10">
+            </div>
+            <div class="calc-in">
+              <label for="iCpm">CPM (RM per 1,000 impresi)</label>
+              <input type="number" id="iCpm" value="30" min="1" step="1">
+              <small>Data anda: RM27–33</small>
+            </div>
+            <div class="calc-in">
+              <label for="iCtr">CTR (%)</label>
+              <input type="number" id="iCtr" value="0.8" min="0.01" step="0.05">
+              <small>Purata sihat: 0.8% · Hari lemah: 0.35%</small>
+            </div>
+            <div class="calc-in">
+              <label for="iConv">Klik → Perbualan (%)</label>
+              <input type="number" id="iConv" value="66" min="1" max="100" step="1">
+              <small>Data anda: 66%</small>
+            </div>
+          </div>
+
+          <div class="calc-out">
+            <div class="out-row"><span>Impresi</span><strong id="oImp">—</strong></div>
+            <div class="out-row"><span>Klik</span><strong id="oClicks">—</strong></div>
+            <div class="out-row"><span>Perbualan (lead)</span><strong id="oConv">—</strong></div>
+            <div class="out-row hero"><span>Kos per perbualan</span><strong id="oCpc">—</strong></div>
+          </div>
+        </div>
+
+        <!-- ============ 2. BAJET TERBALIK ============ -->
+        <div class="calc-box">
+          <h2>2. Bajet Untuk Sasaran</h2>
+          <p>Nak dapat bilangan lead tertentu? Ini bajet yang diperlukan.</p>
+
+          <div class="calc-inputs">
+            <div class="calc-in">
+              <label for="tTarget">Sasaran perbualan (lead)</label>
+              <input type="number" id="tTarget" value="75" min="1" step="5">
+              <small>75 lead = 5 jualan (pada 15 lead/jualan)</small>
+            </div>
+            <div class="calc-in">
+              <label for="tCpm">CPM (RM)</label>
+              <input type="number" id="tCpm" value="30" min="1" step="1">
+            </div>
+            <div class="calc-in">
+              <label for="tCtr">CTR (%)</label>
+              <input type="number" id="tCtr" value="0.8" min="0.01" step="0.05">
+            </div>
+            <div class="calc-in">
+              <label for="tConv">Klik → Perbualan (%)</label>
+              <input type="number" id="tConv" value="66" min="1" max="100" step="1">
+            </div>
+          </div>
+
+          <div class="calc-out">
+            <div class="out-row"><span>Klik diperlukan</span><strong id="tClicks">—</strong></div>
+            <div class="out-row"><span>Impresi diperlukan</span><strong id="tImp">—</strong></div>
+            <div class="out-row hero"><span>Bajet diperlukan</span><strong id="tBudget">—</strong></div>
+            <div class="out-row"><span>+ Buffer ujian 30%</span><strong id="tBuffer">—</strong></div>
+          </div>
+        </div>
+
+        <!-- ============ 3. BREAK-EVEN EJEN ============ -->
+        <div class="calc-box">
+          <h2>3. Break-Even Ejen (Komisen 2%)</h2>
+          <p>Berapa mahal anda boleh bayar per lead sebelum rugi.</p>
+
+          <div class="calc-inputs">
+            <div class="calc-in">
+              <label for="bHarga">Nilai projek (RM)</label>
+              <input type="number" id="bHarga" value="250000" min="0" step="10000">
+            </div>
+            <div class="calc-in">
+              <label for="bKomisen">Komisen (%)</label>
+              <input type="number" id="bKomisen" value="2" min="0.1" step="0.5">
+            </div>
+            <div class="calc-in">
+              <label for="bLead">Lead borang per jualan</label>
+              <input type="number" id="bLead" value="15" min="1" step="1">
+              <small>5 lead → temujanji, 3 temujanji → jualan</small>
+            </div>
+            <div class="calc-in">
+              <label for="bKosLead">Kos per lead sekarang (RM)</label>
+              <input type="number" id="bKosLead" value="10.36" min="0.01" step="0.5">
+            </div>
+          </div>
+
+          <div class="calc-out">
+            <div class="out-row"><span>Komisen per jualan</span><strong id="bKom">—</strong></div>
+            <div class="out-row hero"><span>Break-even kos per lead</span><strong id="bBe">—</strong></div>
+            <div class="out-row"><span>Kos iklan per jualan</span><strong id="bKosJual">—</strong></div>
+            <div class="out-row" id="bNetRow"><span>Komisen bersih per jualan</span><strong id="bNet">—</strong></div>
+            <div class="out-row"><span>% komisen untuk iklan</span><strong id="bPct">—</strong></div>
+          </div>
+        </div>
+
+        <!-- ============ 4. JADUAL SENARIO ============ -->
+        <div class="calc-box">
+          <h2>4. Jadual Senario</h2>
+          <p>Bandingkan kesan CPM &amp; CTR pada kos per perbualan.</p>
+          <div id="scenarioTable"></div>
+        </div>
+
+        <p class="fineprint">Alat dalaman — tidak diindeks oleh Google.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom" style="border:0;margin-top:0">
+      <p>&copy; <span id="year"></span> NH Ivory Home Sdn. Bhd. — Kalkulator dalaman</p>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    "use strict";
+    var $ = function (id) { return document.getElementById(id); };
+    var RM = function (n) { return "RM " + n.toLocaleString("ms-MY", { minimumFractionDigits: 2, maximumFractionDigits: 2 }); };
+    var NUM = function (n) { return n.toLocaleString("ms-MY", { maximumFractionDigits: 0 }); };
+
+    function calcProjection(budget, cpm, ctr, conv) {
+      var imp = cpm > 0 ? (budget / cpm) * 1000 : 0;
+      var clicks = imp * (ctr / 100);
+      var conversations = clicks * (conv / 100);
+      return {
+        imp: imp,
+        clicks: clicks,
+        conv: conversations,
+        cpc: conversations > 0 ? budget / conversations : 0
+      };
+    }
+
+    /* ---------- 1. Unjuran ---------- */
+    function runProjection() {
+      var r = calcProjection(
+        +$("iBudget").value || 0,
+        +$("iCpm").value || 0,
+        +$("iCtr").value || 0,
+        +$("iConv").value || 0
+      );
+      $("oImp").textContent = NUM(r.imp);
+      $("oClicks").textContent = NUM(r.clicks);
+      $("oConv").textContent = r.conv.toFixed(1);
+      $("oCpc").textContent = r.conv > 0 ? RM(r.cpc) : "—";
+    }
+
+    /* ---------- 2. Bajet terbalik ---------- */
+    function runTarget() {
+      var target = +$("tTarget").value || 0;
+      var cpm = +$("tCpm").value || 0;
+      var ctr = (+$("tCtr").value || 0) / 100;
+      var conv = (+$("tConv").value || 0) / 100;
+
+      var clicks = conv > 0 ? target / conv : 0;
+      var imp = ctr > 0 ? clicks / ctr : 0;
+      var budget = (imp / 1000) * cpm;
+
+      $("tClicks").textContent = NUM(clicks);
+      $("tImp").textContent = NUM(imp);
+      $("tBudget").textContent = RM(budget);
+      $("tBuffer").textContent = RM(budget * 1.3);
+    }
+
+    /* ---------- 3. Break-even ---------- */
+    function runBreakEven() {
+      var harga = +$("bHarga").value || 0;
+      var pct = (+$("bKomisen").value || 0) / 100;
+      var leadPerJual = +$("bLead").value || 1;
+      var kosLead = +$("bKosLead").value || 0;
+
+      var komisen = harga * pct;
+      var be = komisen / leadPerJual;
+      var kosJual = kosLead * leadPerJual;
+      var net = komisen - kosJual;
+      var pctKomisen = komisen > 0 ? (kosJual / komisen) * 100 : 0;
+
+      $("bKom").textContent = RM(komisen);
+      $("bBe").textContent = RM(be);
+      $("bKosJual").textContent = RM(kosJual);
+      $("bNet").textContent = RM(net);
+      $("bPct").textContent = pctKomisen.toFixed(1) + "%";
+
+      var row = $("bNetRow");
+      row.classList.remove("good", "bad");
+      row.classList.add(net >= 0 ? "good" : "bad");
+    }
+
+    /* ---------- 4. Jadual senario ---------- */
+    function runScenarios() {
+      var budget = +$("iBudget").value || 0;
+      var conv = +$("iConv").value || 0;
+      var cpms = [25, 30, 35, 45];
+      var ctrs = [0.35, 0.6, 0.8, 1.2];
+
+      var best = null, worst = null;
+      var html = "<table class='calc-table'><thead><tr><th>CTR \\ CPM</th>";
+      cpms.forEach(function (c) { html += "<th>RM" + c + "</th>"; });
+      html += "</tr></thead><tbody>";
+
+      var cells = [];
+      ctrs.forEach(function (ctr) {
+        var rowCells = [];
+        cpms.forEach(function (cpm) {
+          var r = calcProjection(budget, cpm, ctr, conv);
+          var cost = r.conv > 0 ? r.cpc : Infinity;
+          rowCells.push({ cpm: cpm, ctr: ctr, cost: cost, conv: r.conv });
+          if (best === null || cost < best.cost) best = { cpm: cpm, ctr: ctr, cost: cost };
+          if (worst === null || cost > worst.cost) worst = { cpm: cpm, ctr: ctr, cost: cost };
+        });
+        cells.push({ ctr: ctr, rowCells: rowCells });
+      });
+
+      cells.forEach(function (row) {
+        html += "<tr><td><strong>" + row.ctr.toFixed(2) + "%</strong></td>";
+        row.rowCells.forEach(function (c) {
+          var isBest = (c.cpm === best.cpm && c.ctr === best.ctr);
+          var isWorst = (c.cpm === worst.cpm && c.ctr === worst.ctr);
+          var cls = isBest ? "best" : (isWorst ? "worst" : "");
+          html += "<td class='" + cls + "'>" + (isFinite(c.cost) ? RM(c.cost) : "—") + "</td>";
+        });
+        html += "</tr>";
+      });
+
+      html += "</tbody></table>";
+      html += "<p class='fineprint' style='text-align:left'>Setiap sel = <strong>kos per perbualan</strong> pada belanja " +
+              RM(budget) + " · klik→perbualan " + conv + "%. " +
+              "Hijau = terbaik · Merah = terburuk.</p>";
+      $("scenarioTable").innerHTML = html;
+    }
+
+    function runAll() {
+      runProjection();
+      runTarget();
+      runBreakEven();
+      runScenarios();
+    }
+
+    /* ---------- Preset ---------- */
+    var PRESETS = {
+      real: { cpm: 30, ctr: 0.8, conv: 66 },
+      win:  { cpm: 30, ctr: 1.16, conv: 66 },
+      lemah:{ cpm: 31, ctr: 0.35, conv: 40 }
+    };
+    document.querySelectorAll("[data-preset]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var p = PRESETS[btn.getAttribute("data-preset")];
+        $("iCpm").value = p.cpm;
+        $("iCtr").value = p.ctr;
+        $("iConv").value = p.conv;
+        $("tCpm").value = p.cpm;
+        $("tCtr").value = p.ctr;
+        $("tConv").value = p.conv;
+        runAll();
+      });
+    });
+
+    /* ---------- Events ---------- */
+    ["iBudget", "iCpm", "iCtr", "iConv", "tTarget", "tCpm", "tCtr", "tConv",
+     "bHarga", "bKomisen", "bLead", "bKosLead"].forEach(function (id) {
+      var el = $(id);
+      if (el) { el.addEventListener("input", runAll); el.addEventListener("change", runAll); }
+    });
+
+    var y = $("year"); if (y) y.textContent = new Date().getFullYear();
+    runAll();
+  })();
+  </script>
+</body>
+</html>
