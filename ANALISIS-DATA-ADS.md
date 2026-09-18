@@ -1,4 +1,21 @@
-# Analisis Data Meta Ads — NH Ivory Home
+# Analisis Data Meta Ads — Akaun NH Ivory (Refinance & Renovation)
+
+> **PENTING:** Akaun ini untuk **REFINANCE** dan **CIDB RENOVATION** —
+> **bukan** perkhidmatan bina rumah. Data ini adalah baseline produk lain.
+
+## 0. APA YANG ADA DALAM AKAUN INI
+
+| Jenis kempen | Produk | Status |
+|---|---|---|
+| Property & Refinance | Refinance rumah | Berjalan |
+| CIDB Renovation | Kerja ubah suai | Berjalan |
+| Agriculture Lands | Tanah pertanian | Berhenti |
+| TANAH CHANGKAT JERING | Tanah | Berhenti |
+| Rumah Usang | Beli rumah lama | Berjalan |
+
+> **Tiada kempen "Bina Rumah" lagi.** Lihat `PELAN-MULA-BINA-RUMAH.md`.
+
+---
 
 > **Kemas kini terkini.** Data: **RM3,326.44 dibelanjakan · 321 perbualan · 11 kempen**
 > Tempoh: 18 Ogos 2023 – 18 September 2026
